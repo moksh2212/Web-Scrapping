@@ -1,6 +1,7 @@
 import puppeteer from "puppeteer";
 
 async function main() {
+  throw new Error("YOU ARE ON THE WRONG BRANCH");
   const browser = await puppeteer.launch({
     headless: false,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
