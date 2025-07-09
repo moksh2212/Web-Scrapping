@@ -1,0 +1,20 @@
+{
+  "name": "intern-docs-other",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "scrape-marktplaats": "npx tsx scrape-marktplaats.ts",
+    "scrape": "npx tsx index.ts"
+  },
+  "dependencies": {
+    "@types/puppeteer": "^7.0.4",
+    "@typescript-eslint/eslint-plugin": "^8.36.0",
+    "@typescript-eslint/parser": "^8.36.0",
+    "eslint": "^9.30.1",
+    "puppeteer": "^24.12.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
