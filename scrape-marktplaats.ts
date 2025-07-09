@@ -11,6 +11,10 @@ async function main() {
 
   const a = 5;
   console.log(a);
+
+  // some comments to show they are gone.
+  // some more
+  // even more
 }
 
 // eslint-disable-next-line @typescript-eslint/no-floating-promises
