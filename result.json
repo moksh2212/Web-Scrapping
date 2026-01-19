@@ -1,168 +1,163 @@
 {
-  "platform": "marktplaats.nl",
-  "query": "tandem",
-  "timestamp": "2026-01-16T14:57:34.529Z",
-  "totalListings": 32,
+  "platform": "marktplaats",
+  "keyword": "tandem",
+  "timestamp": "2026-01-19T01:04:51.209Z",
+  "total": 31,
   "listings": [
     {
-      "name": "Hermès - Tandem - TA1-210 - Dames - 2000-2010",
-      "price": "€ 1,00",
-      "url": "https://www.marktplaats.nl/v/sieraden-tassen-en-uiterlijk/horloges-heren/a1521795071-hermes-tandem-ta1-210-dames-2000-2010?c=d97e27c274e75147b4afd0f5eb58c81b&casData=jeGWGdimRBpQwe7EWFCdzt3s2x4qpT5hqeZZ9cudAr75oG96EPx5O6NrMR0uX5pzAlCaLE7Du8QitHTLXBfNufzko_dd5fu5K4zgatDamAKJI6qRA8oos39vPu7oVIFdDXmegfKMptsRIWmdbESyMylwr5L_trWoZOw6rQt24o_72i_Gc_jEml6wal-b0nx0_CRe2aBeiqwpHuCa-Lh66aXhxfva6JTtdvhcdHSVYEak73jto8TyhDU9FgxOc-9zaIzhz5agJFQwb_knfB8JiOaWO7gavrFY18LDyXN51VNDs79aJgs62haYftdo2Sc3zLO8FHyA3dvaqpZ_i7bKrPNyoteNu-NL01gwxQVRlH7Pd9CvyR7326gFzlA7t-OtnTvG-cvLF66XwrI1VzogQH9HJLGZEJlDq1A4x96oVOInfbCn0uhjNuIRunZv4YU9dN7VyJWfDS4oyxsJxZwFWu-U6a_LJWctZtgAkhQLZEq99aXYOBfln5ZvVJQjigff8OiorQooHZsZxcede0T0LM60btNP_99_XHS9IxN6kJE6Xk-muuAUhCaseyBC_d1T"
+      "title": "Hermès - Tandem - TA1-210 - Dames - 2000-2010",
+      "price": 750,
+      "url": "https://www.marktplaats.nl/v/sieraden-tassen-en-uiterlijk/horloges-heren/a1521795071-hermes-tandem-ta1-210-dames-2000-2010?c=d97e27c274e75147b4afd0f5eb58c81b&casData=Et-Ve6udKqHzgeLxWkdNpXuf5Pk7dAFYT92OUkglo8UAKn8HVs4hROWJWZFeYUKUgRsz1BESAKvesVYzf-gheWZ0X6wP1E-eu-B6s-JgEqkzmJlajkXpNfMwp7AX5Ynus7DBbEmI9KgPrlZmmIEGZ9JiebHFYCMbxdLcECoi0C0wlGrXpcnUYIg7Tg-MbwXYg5mjZhWq2eKNXsiTJtYwvrWI_Vuks-vDJRfPNK32Jio1PNxkkVfcSfb400NSJzHTk-bsVeZm8Bp7CW-4dNl9LbyVR0nMOwDdLCtpTVef1fYYhRP78sOvZrTNxJMl0VhHP3tm3ZkwSS8SxrqnhiTfqgr26aWTXaiG0U1cKKrGS3c9NXhEJtGrGFhzriRSPieLm2RxBuIGf5qO_qhX9SLt1SsAYFxJ4YNsqowOOYyrqMwcyOrkBNC36buAM7c1mOJhD3fG3ur23ZDZR6l3jFUaqPjbMBvZEzG7HHzZx3M-bqi5drotUOtpnsVdlYr_Gx8vBRWvKE2OujWrd96oyk4H-bPwFh5LUiuKRH2MOB6a6V_rZawSL5M24_-dZD9hYsrm"
     },
     {
-      "name": "Elektrische Drössiger tandem met Pendix eDrive",
-      "price": "€ 4.975,00",
-      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/a1518030269-elektrische-drossiger-tandem-met-pendix-edrive?c=d97e27c274e75147b4afd0f5eb58c81b&casData=T9NjdDhlTdX5OUg67DOQ7P9mIjtxSms5P7QaoU115pMBtqrmEwzTaGNrMlxAw68uDffefdb2ZUzVXNQumNQQAk4A5NuYttLOu6qoYNzRpM-iXXFbXvM-0J2eX6MgkDTKTCCLMDeCE1RrNk4FCNX_zL4e0TjMl2zU1f_i4n_sRiMHMNVTEfnoeVDnkq0rdF91DLhEygVpB09eXSPRj-SYfN-p8D_XfMoVvb8KG0I1lJORpyeXSUlpljKkoBurS07dWLSUSBHcxj7gYNc6-O8Kp8a37K98SdCoAgzE1OnmSJbYcsCh2vvRQXMSiERumJgXDeV7NQVaHMetpLQRHXqTV19XXJkQsIBGdfb09tOyBznalqut_sgObcfMvsvORv8xsw4W-PgK5OliEyMOcX9Pv16yOeyylwZVgsLULPHbm0Am61KieIXDeXkzAPRM9KqokuF9xJYtT0ONq1EhuhpfGDHu_0HP247cKGHuGLCr70dJKPIh17Rdpi6LXhC7aywBS14gnRBoK1uYc2M4LRsouRqKqhE2CsD6vU8k85Pc52I7Fm6-oZn5MnqgXcJ3toJL"
+      "title": "Elektrische Drössiger tandem met Pendix eDrive",
+      "price": 4975,
+      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/a1518030269-elektrische-drossiger-tandem-met-pendix-edrive?c=d97e27c274e75147b4afd0f5eb58c81b&casData=KqQhZktsBSYbnNf6LQeKN4wh056BgHwIs54JkizafVP2DU2oRHtnZymshAV5ae2ilLRSjMo0Dq7Xx8UIn_md7j8Y1q_uNbelyDpH8dIlB0D7NfIX8EsInhrtobENnJMY85jc8wciCWoVNH7QsPzjPrE6mWUsUog9ey8rkfrCgLWpT0mKKD2xJC_UlSLto-A0XIFdz2-tRFBEn7iDNc-SPkfqLKfRjGw_LcpVbflLwCeW0PT7JrfPVy_dyqnxfB4zV1GcqlPUuSMCRcqCYD-7BCITeWgJg62qFNNoaHZDgqzFKXkt3Zj5d9PERCz457UO8NMzblPiGq_W6O4v7YDRLJgPytscEo4hbFPyrd2u4EhbbP-TmIIdCPaN0sIZfgBjhwtUVJaLPDcgaFTMaqd19TyRZfJaz-1i1Gd7P2w8ZaWGbvjMcYAbmD8h-z9f4sgaN3k_bkbAZHoHvjnuGvMU5lxzIaYs685-rDH41RJHDxhAuqtCovza-D1dIdoJGV1vmB-GFktCPpPLTF4b3QYKuCUdZukUeiNILVmsGqCG6SmwZXyL1Cjhf-dyOLJBOpMb"
     },
     {
-      "name": "Tandem As Set compleet Aanhangw. V-2700 KG Div. Padmaten",
-      "price": "€ 1.384,28",
-      "url": "https://www.marktplaats.nl/v/auto-diversen/aanhangwagen-onderdelen/a1460791341-tandem-as-set-compleet-aanhangw-v-2700-kg-div-padmaten?c=d97e27c274e75147b4afd0f5eb58c81b&casData=XvKAYvPiz2yjff_mZLUj83Fe0RL8gBL-J45jDOUxlq0uQ83e-wnaQawZQPS6eaI-nEq6kDFwiQ0lYkvtNQgH28kkEezOFfqvqzfTbhsDUf2dkOZ2JoxVYH1DqtFq1fmcrGsdNtWDR6TrS7Vjlep5Sm5-NtwQGGtmMhTdAHLgeDaxJjwUk2c7MXZM3qWG72W9O0BlknxLyIGobdS8BeM5pdC-ecOL9kHzXknXUYVg2MsgrwIbYFyAdd5jbcs7WyMJh4Ld7CYtTfGZdcdHEJUfeDlVS3U8eZBHd-ORIv4QhFgdrFI03BFFmcRMGAibCwspAVtgdjHaYqccyGdIeacfCaekQc_pQSH3qKzTiqnJk3CvVOUxdmN6nFUNjMDOc1ag3iSKZ8UwJvOz-5KqjOwSCU6y4xQ1WBFE3exwK8k4PG-t24Qohf4cvAEXsPkFu3l_8ejNj4gRiSij_bfn0PmGF7sWlikLlWiUGCGZRfMy0FDPOo1pEzHNmjDJ7CTzolgXpNBregIpYFKqCiA13kQlVnHFqeLY5knPsKdVRTCLNKgPEAVF9V2J85ukRUYTGkF2"
+      "title": "Tandem As Set compleet Aanhangw. V-2700 KG Div. Padmaten",
+      "price": 1384.28,
+      "url": "https://www.marktplaats.nl/v/auto-diversen/aanhangwagen-onderdelen/a1460791341-tandem-as-set-compleet-aanhangw-v-2700-kg-div-padmaten?c=d97e27c274e75147b4afd0f5eb58c81b&casData=iDhk3RqM8IzM297TIotO_kmkyz5aumIG7yoo2KtQNNkYPN8c0sB5nOYgFhZWnFqabTVWsSLSpdx04gbRA0C0M2jNLy-38KGP79iP2DjS4xV9bi07NC-y9vrCzoLiH8HWEvxvwMb4yArkQM5_6PX2JLF3kHFoCflbR049aiSuvpLVLLNWZzsDYF7DkrgzDIwCIzgJGda-sYfU3oO7XYPHMA7U4x-gla80IJhaKzq9MorB46Z9PMdkv7P59bzgr_uN8oigri5N6hRFUIIUVUn7eFZCi5LWmBsnMsu0VG00zow3_bRcPHYARN5E3Ch9xvSsqEbW2YQlRHEPM-wUsNXL5E8x0SkfUJ2TBtxYOk-yDZ8ME95q59BoMsxL2HRAtR4Klsu2ZesxvI2XzJAD0SVCQPB2J2ihIpTdI0NVsfK1-7xTWCUX4kmoU5z8RqBQG7g4Np0nvWB8uRpEDQt09gcy4UWauRY4PfWbbGymS2iAC-RrCa8NS_NJt4USbfoQaxnErhNs7Ewo7B-aD2ggO_l9SZpyT838elz3edw8VpOE-P634vG69y1RAZrx9Yy5pjBy"
     },
     {
-      "name": "Vermeiren Carpo 2 Limo 2 persoons scootmobiel duo tandem",
-      "price": "€ 1.990,00",
-      "url": "https://www.marktplaats.nl/v/diversen/brommobielen-en-scootmobielen/a1520946208-vermeiren-carpo-2-limo-2-persoons-scootmobiel-duo-tandem?c=d97e27c274e75147b4afd0f5eb58c81b&casData=bFsGDmZJ18PM6D5l4GS1o8UwcuKVdwzPXMoc5y-elAMEOW-bI2iLYaK7sGtbgiG48sGDGI1CwJaLvzdpGwl1fjcIqPOt8-eZgALV7WrI1oSIYzXsqExeNljqYPnTTmfP6wd7QxBlmFt6Db3pimPQEMDUc3FwUkiXYtBaQ0z45ig4ilCt7VwDktwoN6fhPNhWWYlJztuG_F8FcaXyTzf7nUbbf8jwwahir74ckMnvAh9LBp_dVU8opio8lLeSFqPZlM1ezXqKBaI5vPus8fn3V04HhgCW0Y3SBzpXS-lySJ0yZAvS31ubGybdLMEuVP1i89DrrdL0_TGly0jLofM-KnPS2dj6avoCrTFUAZMzBNWQ2z_EgMmw1qf9E6G3qilZLdVYMxAeRUJQV6hJ-Dhp9IO2NMOGG4t-u1Cq8ZuMHiDf304lsbPGQhkbhRNIZ3tmQZyOpsZ3j5wMWOj14FVe4IMQ4WSWeoTXSAoPopzL3Hm75e1pawUrWqB5HJ535l0pdyo8-mVvD4zAGTRFYejn5Q1Hcudf6c_XzZbwU3Xd2ns"
+      "title": "Vermeiren Carpo 2 Limo 2 persoons scootmobiel duo tandem",
+      "price": 1990,
+      "url": "https://www.marktplaats.nl/v/diversen/brommobielen-en-scootmobielen/a1520946208-vermeiren-carpo-2-limo-2-persoons-scootmobiel-duo-tandem?c=d97e27c274e75147b4afd0f5eb58c81b&casData=Qs83HrEGM6eoNvobnLhMcY12lDxWW0yC1K1foM4PFHsgl36C_7x0cYXkF06Z2cjyrPp7fimCWypbMR1Ou5cnpJGq5hukqiV0XecOFTzMTDdj12IM7D7JlunIb0IH_QWTQUUmHIeqFro5kBeIfTtBWOOH1Dnd7fPYZPadIpDl1Y46c1jTNAlV4_ySx3gfRKdYgSOKlqyS4EwNOuvyzOTEAGKoqjxvyedSD91gnPAOzJBbqZgGXJiAfQ4w-rGdjHXzbrpnOWh1N4KbMboMhIahEN4g0-uKCCv-ybgUiOzCtOViWzSRo77TunvgqHGcM9sWTTN9WEPUYOENtw06vtfV1jLDwaZT3gjvhG6brQ60MZB3CNcMUzX1oEAU8a5FN2aCEGHuJiZ09Uz1zFiTIKa2vt83V-k0BdoElj1bziJxDCw9oeNLcRYXgoT3cTM0djNWL1_xtlv6cNMzK2_iq5Wxl5XQskwpn6fi2tihb-Y-ldVeyI1370raB3X82IVeHX6D7ZQbyXuP1Dm6800O6M9Zd0IqxRsrnhAbOvCLAO9Hpy5MTuUhnkrApusnzY4UVAO8"
     },
     {
-      "name": "Pompwagen | Palletwagen  standaard vorklengte 1150 mm",
-      "price": "€ 227,53",
-      "url": "https://www.marktplaats.nl/v/zakelijke-goederen/machines-en-bouw-heftrucks-en-intern-transport/a1479023004-pompwagen-palletwagen-standaard-vorklengte-1150-mm?c=d97e27c274e75147b4afd0f5eb58c81b&casData=bOk_QAXBve0YYYjw3i1tetWbmIoxky0Ask3FEPEjUH3OId9cELvNZJBO-7Pb_uJmNBQgwQCtpAfk9WVMTbbSFxGQ0UBG3PDdayi0xBt7T7aKgVdvvwV1C3qeI-16vtMyxn7TgVL_ANbBUvwDzEAvXJtY8SrwumWjshF20cZotyxhw4T4zgMj25hbeZVa2kYAijfL45GEnjr9CaYWmQ7_bBqYHxG6BGwzZqt9Mv2IYFpcFEZvovmWZ61qsi6lr8Ym342-aXncBoH7I_lGa0SDXj1cOx9drj6GUlIXFoOvldFfnAubOHqr8s_3ZT_LDGlSLksgbSxWGuFjd0iAc_9rk5EG_w_kgGKDezUHNjMN8LFfm99uNWp1PjTE_lbVvjTKPIIzB-Cw1PQEGVA-IQlj5pR09UJRnqjec6ZtDO2exDf-5cSB046n_41XQtTy5P8bO4A0iByWMI-D8ltWM1UaobtqczqnUDB_CUEYbbv0jqqWeZqgqrMSBkR_RFj9GnWrYIJF8kKevbLohum3Hl8fb4GOYwQXl9Yggmw3ItQRkPw8C9NuO5HSRHmYooj_-sr_"
+      "title": "Cannondale Bakfiets - Perfect voor Familie!",
+      "price": 4999,
+      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2356706422-cannondale-bakfiets-perfect-voor-familie"
     },
     {
-      "name": "Elektrische Van Raam Fun2Go",
-      "price": "€ 4.999,00",
+      "title": "Elektrische Van Raam Fun2Go",
+      "price": 4999,
       "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2232180764-elektrische-van-raam-fun2go"
     },
     {
-      "name": "Zomeraanbieding! Elektrische van Raam Twinny - Silent motor",
-      "price": "€ 1.495,00",
+      "title": "Tandem As Set compleet Aanhangw. V-2700 KG Div. Padmaten",
+      "price": 1384.28,
+      "url": "https://www.marktplaats.nl/v/auto-diversen/aanhangwagen-onderdelen/a1460791341-tandem-as-set-compleet-aanhangw-v-2700-kg-div-padmaten?c=08c285449651fa109c354bbabe740c1b&casData=zPECM2XoxH-BfcIQEu95U8ie1EldoX-oxIUrYPzt9xyJJp3neNJc4qxlCYTw0Z1nUcRNiINcMveL33BZsRUeyFT3n2G6Lr1w5GL4Y4CeQSsa1u87HgwJAFM80pKRtlOUeKIi6ot1m4pBVTl5tLEDzsBIvQHrfc_7nTnvAXcrwVGGfJApFeRtz6gWlFfY5wnnWh4YWtx0X3X8LavlLQJJOaiZrWFhBHfTwnc9T2i4szH13rETe42wYSZoeVUegb3GdBXSf7IFtsBwX42jMB-yQCYSTxJ7tcsN3px79sJh3Cs8c5hFz2lon6-4IvqFK_73paMpDFg-XCi9q8tNiakzFt0df1TY9CMzu9u6YBuJl6ICIuZ3t-vYmM5WraS4eaAYrtyiFiaL8mmdJPtguVyTqTH5oskMgti9tyRBloGxgVcZD9USXhk6sz5ZdYeRhj19hfCQwAR_IV5dFr-J2kMr0yK5UQh8hqEw8ZpTxM4yRGQ5q1b_uBXALOgMoRxc8ktQXnGoux-pBHBV6zCKIfrarj2vlPLIKnj52TE4M-_Jfzc"
+    },
+    {
+      "title": "Zomeraanbieding! Elektrische van Raam Twinny - Silent motor",
+      "price": 1495,
       "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2284880262-zomeraanbieding-elektrische-van-raam-twinny-silent-motor"
     },
     {
-      "name": "Elektrische van Raam Kivo Plus driewieltandem (Silent HT)",
-      "price": "€ 4.495,00",
+      "title": "Elektrische van Raam Kivo Plus driewieltandem (Silent HT)",
+      "price": 4495,
       "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-driewielfietsen/m2285221340-elektrische-van-raam-kivo-plus-driewieltandem-silent-ht"
     },
     {
-      "name": "Elektrische Huka Co-Pilot '24 ouder-kind tandem (Z.G.A.N.)",
-      "price": "€ 2.495,00",
+      "title": "Elektrische Huka Co-Pilot '24 ouder-kind tandem (Z.G.A.N.)",
+      "price": 2495,
       "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m1993679673-elektrische-huka-co-pilot-24-ouder-kind-tandem-z-g-a-n"
     },
     {
-      "name": "Ouder kind tandem, Onderwater XL ZGAN! 4 kinder mogelijk",
-      "price": "€ 1.550,00",
+      "title": "Ouder kind tandem, Onderwater XL ZGAN! 4 kinder mogelijk",
+      "price": 1550,
       "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2320761494-ouder-kind-tandem-onderwater-xl-zgan-4-kinder-mogelijk"
     },
     {
-      "name": "Elektrische Huka Co-Pilot '26 ouder-kind tandem",
-      "price": "€ 2.995,00",
+      "title": "Elektrische Huka Co-Pilot '26 ouder-kind tandem",
+      "price": 2995,
       "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m1949378180-elektrische-huka-co-pilot-26-ouder-kind-tandem"
     },
     {
-      "name": "Hermès - Tandem - TA1-210 - Dames - 2000-2010",
-      "price": "€ 1,00",
-      "url": "https://www.marktplaats.nl/v/sieraden-tassen-en-uiterlijk/horloges-heren/a1521795071-hermes-tandem-ta1-210-dames-2000-2010?c=08c285449651fa109c354bbabe740c1b&casData=oorN-LfP52uLwYZ8W1Zgu7c4r0LcLKefEbqhfe27p-PAEQWRF9Ndf_nyr3hcgMnCc3FovEyUb8ogixgHFy7hFyQzv2c6KZ-xpCGuKnurQ22TR6GN71DAUD26xagPAHlKjin-SlSQvKUCavrI1Adjnico4DViF4J0g4a_wTBpx--WyWx5PuVbv5snhM_GzLlx_59xI3CVsg1B4zyCLw8Fwohp35ovpL98T5vOERnb0jNOzVxxPWeCVYshr48Ho_kyfKZDLoMOeUcKTs21dXk3RSeq49Iz1863wgjYWJLmUsr9aBa7jLduLwR1rsr7SOK6uDMZwhY7XkQARA-OTPhaA-TzMg0oYxA8FW9drStmzfla3572YjhRYAapLJ490zJIc2BVyg87FjRwhxLic9HuAGdhGT6ldL7MB9cwSpz-1lK2J-RmceZ4ZQJ_kqOd2oL6tlG1wlfdV-e9wQ9mU0lbWBL-GK9sks5hVFmY1OFbPKHZ_db8vLtqnffSxuVDTAXdOgvU-m7n5lR-y73nIzMNxmFzuLyjhUlRm59PML77spM"
+      "title": "Pompwagen | Palletwagen  standaard vorklengte 1150 mm",
+      "price": 227.53,
+      "url": "https://www.marktplaats.nl/v/zakelijke-goederen/machines-en-bouw-heftrucks-en-intern-transport/a1479023004-pompwagen-palletwagen-standaard-vorklengte-1150-mm?c=08c285449651fa109c354bbabe740c1b&casData=H9XiMh6pTQSFJvJbt4_b3ISB0z3pK2RLZfkJiB4t_OnSHh4jENQPCI_nRIWeFgXog1GiaTX22Zp9W3Zq1AOnJJHJz0qGKB3pFoxfW9YOMrtiaoYyz3lVIK9Z7K8DYMUfgyAyAY2ARxVAWiQsFF20Al3JcZiOlsrCMUZLoZH8HP2d52hSOStJyDLfRJKFj0KnBTspsZsik5r_oHi2tkJY47WTsgtm46y1pDZI9esAJnXxZ9Tjr_T1RIFNQEfpsivpwp_h_oRbxyTN8FkgwFBxYfX-lLr3ZzEzRvNRywEqoWretVBJLPNDJZIYzkeMbqwJJtMOmm5lX2r1gi9TLsAzfYMjQRnjS4rlCYf1Wec1aKBW0-QGdyypSKxfzwzfFAxIjxJXI8KCyn3hHq8lRAv6AAl7fUS5mtSDlECtnpQKdhM-ZrWpwWf_xkYlAy4XgbHcEstOQOUEkvow93sYvpcazsgrQktUcBPzIZgAfu_NSaxmjRMidyNJrUFOjgShrUsyfGQGBTFK__WXhvWs5KQF2VIbpy6R18TMeEQWP65aQuo"
     },
     {
-      "name": "Mooie Sparta Double X tandem met 8 versnellingen 50/28\"",
-      "price": "€ 39,",
-      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2356089925-mooie-sparta-double-x-tandem-met-8-versnellingen-50-28"
-    },
-    {
-      "name": "Santos Tandem",
-      "price": "€ 39,",
+      "title": "Santos Tandem",
+      "price": 39,
       "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2355870506-santos-tandem"
     },
     {
-      "name": "Hermès - Tandem - TA1.710 - Heren - 2000-2010",
-      "price": "€ 330,00",
-      "url": "https://www.marktplaats.nl/v/sieraden-tassen-en-uiterlijk/horloges-heren/a1521692554-hermes-tandem-ta1-710-heren-2000-2010?c=08c285449651fa109c354bbabe740c1b&casData=n6xSl3sYq0gaHAG-nizIsWoezp6SS3w_VZq5oJb84SfoHNazniT4_QeDHIO3UiQM-OvlJWNZ7kXoEtQtQusSEyZW1f8UchbxvqyKcBqQk-q8iFhI_VtTZIJ1wluDoUIMmwJV2vkb3P31q2cQSwMBRb7oH6Bb0dqhBcPT-47UrKmfIg9OPGSeOMtQ_rz1z58Ib_BUNF0nO0HM-Ts0pFzu2JofoXJIfFRSv7d5oEgCURyGml9I2od-C1yK0qnUDz8UnUyLkwapt3ujqZ30Tz0BNH9kC9B-pIF7hDDjdbbEZHTPPhiG5bbxfJ14e4OT7Ywjyayzp8KjKLTnzb8C0vbyJXUAeLDZHuXYSxq3EUeQ7wZMrnY_NclLYsxKafp4kj14XMEvxbiAkMNXaMRZW2GCpLbGN4BuuXO2X-MF8FdKJbzzGt9F7aU5AiYr-94Mhav6I3F9VnTXI3vWVWHaBWpzaZb63eR7uA6n7L37Sk_GXS0e4pgXVd4qB4bv_EQ1z0UDAymkRsDhXdYY4vzE8ZN5SfPCRjuk2KsmD-QWu7lswNs"
+      "title": "Elektrische Drössiger tandem met Pendix eDrive",
+      "price": 4975,
+      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/a1518030269-elektrische-drossiger-tandem-met-pendix-edrive?c=08c285449651fa109c354bbabe740c1b&casData=8QmoIyBHpWqJ5axZjNsWquoXr8_lR4zncOHShtAfpyQP1_Deeaa6VRRPLC-0fibiHPJ1pCLDUn1I_jwwuNKpwwlZA7BHWxYDs6Xed1VYEAb7GtX-B4_BB-qkrIPe_sjn0Dee8gv0tN-2S7CTWT8D4kf8mI9Dj0g7KELDR0dJM2uCYlSDsKLNQZTGKfVB6l0VBh9SQ24_WvlUEejRgTlhsBd2mJW0c24eR2HZnSilDZORz-BGEakfJ2zI8dhsJMGpc31hQxtuURarVdJejTtQX8Nl7Ala0RBfuzrRrNWIzq0LS9Y4sZq5I8IN0CVZEx0MB2df8p4GImSshHuRwOblJkxHW60tltlt3FZi59AqYERM0_ZbIsPndn7IKMCp2aWECpavn51Hj3LCzJTYeil3iK2CEjHCkFFaOlSrbalhj7LRHUY-VLKtbJP1ekh_FmeGoRm0c5deGpAGFE6JdVLwghk2UEqnDEgF9GUZdxKpKRT2k3PeKmG_tGp5eQSpM2dCfkW8dA0zGN_KlEeoG6dKNkM4mkQbKnSmr4HpN55bHSk"
     },
     {
-      "name": "Tandem fiets",
-      "price": "€ 600,00",
-      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2355840352-tandem-fiets"
+      "title": "Prachtig & Als nieuw! Vouwbare Multicycle tandem",
+      "price": 1650,
+      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2356993548-prachtig-als-nieuw-vouwbare-multicycle-tandem"
     },
     {
-      "name": "Hermès - Tandem - TA1.810 2223759 - Heren - 1990-1999",
-      "price": "€ 150,00",
-      "url": "https://www.marktplaats.nl/v/sieraden-tassen-en-uiterlijk/horloges-heren/a1521795272-hermes-tandem-ta1-810-2223759-heren-1990-1999?c=08c285449651fa109c354bbabe740c1b&casData=1-W1OD0mrphaXMDSbzt_OLKuoUeES26Nz6MpmcI3RdoT50YD9b625sJ3AtIIrga7Y4avGvByX0dG7ebBZLG6AXx7NYeAhvPsJLf1vSVFmOG6pgDHfR4hb7KpcT22Ikf2MiD7_sOsaBJznVbhG3l_yI9_-YJTe_ivmCNxJ7Jjxjs6nLNigocAdDa1CSeTLksegyihKWaaRhXzWIyN9f2gS9EndhNNcv1lnhhejvZ5BnPLe-yhv3XYoTNNgMwfJDuj_vnatUr5-BsyhqnwP4bAtiI_zSJP-mOtArDavB9GhY3vhF5C3TYBTtRgYiNvDOsR7AQsHGBZai4eR767ntX-73wO6H3unU06GrhyxVrm2_Go152ucofIGnyJoidOvNiUX98omGJ4FvSpheaBvp5HulFNaVPRkr6nzcfRd1jkhsK-7HIOTQ26zGziqPqwzRPpLWDYy3P-HMLuDJkLwR6X68ffecVBjAUECO-x_IIZNJhttKWxRCt9sxDH7AboKttMx5QbmDmfgzia204hu6suY54iUlT5v8ViH5TSwjl7uiI"
+      "title": "Pompwagen | Palletwagen  standaard vorklengte 1150 mm",
+      "price": 292,
+      "url": "https://www.marktplaats.nl/v/zakelijke-goederen/machines-en-bouw-heftrucks-en-intern-transport/a1512537212-pompwagen-palletwagen-standaard-vorklengte-1150-mm?c=08c285449651fa109c354bbabe740c1b&casData=t78LV0johI2rkTaM4fYhmjyGtZjZcZOwSrbxMDRc9qH_mr-QdHckED__D1mzV41IVRFwUkW0NF_33xxz6xBwpsTJrCDMvwaNq_9kBmltEpiBcwWhuox51r2Ip12166ovlHxvSzlZxaew0AQFaYxYVFBvv1TDzH3c2aiWPTz5cKu75vynR_TwLs7ugA9QokkWWhI0LlzboMsCMxXnY2sjnBabiusWsVbac2mwH5Ogm1eF2UTzAkXwM1fRHPQ0fCOc2SQpoE0pzPv9NgwRYtIJYC9qUJPxYVV8FmKdocSWgn1DvQDKYTrg7KF9c1cgSCnX_4zBJW0QRsQs4MvIj-NYX6vwtRPFAwpa8mBBIIV_XLGYCJykRVVphrP8ASMvgLUWoJO8788X5_jZzHoBYTI15pGIOGIJnjOcrQ5Ikeec0X7ZpxExq_eZ77Sa5WTrt1Ift7nODdVCe8Vhr7zr4xhuzVcoWoWn_zxPcqEnnDtDqNmfMoXvgPqKCw25dM2dBcCtArE9NfP1MgPS0kINYEOkiiWGnuZDjFEtaHcf7Q8UC3w"
     },
     {
-      "name": "E-Hase Pino tandem met deelbare frame",
-      "price": "€ 2.950,00",
-      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2354760138-e-hase-pino-tandem-met-deelbare-frame"
+      "title": "Mooie Sparta Double X tandem met 8 versnellingen 50/28\"",
+      "price": 39,
+      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2356089925-mooie-sparta-double-x-tandem-met-8-versnellingen-50-28"
     },
     {
-      "name": "Tandem Nostalgie",
-      "price": "€ 39,",
-      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2350452732-tandem-nostalgie"
+      "title": "Tandem fiets - ouder /kind",
+      "price": 250,
+      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2356621618-tandem-fiets-ouder-kind"
     },
     {
-      "name": "Tandem As Set compleet Aanhangw. V-2700 KG Div. Padmaten",
-      "price": "€ 1.384,28",
-      "url": "https://www.marktplaats.nl/v/auto-diversen/aanhangwagen-onderdelen/a1460791341-tandem-as-set-compleet-aanhangw-v-2700-kg-div-padmaten?c=08c285449651fa109c354bbabe740c1b&casData=-jzcfasbU8F1O3gvgZa7lhoyyj4-TVP_GJw4HSsZHKXFI9Q3g6uJfzw-H7OuiPGfwMPxXXOvlN14NFqzUJGRW2rqupDqnHXpwLNRfh558cKtBv8bv9G87PG5_rmwntRXA_WI8cBZFiofVkXs2LDjafGvD6IFWFiO_DX4cI2eh91TqiYlxVgrY-AQ4p3Gzk-bInGsyy5_PsaZR7ariD63SUlD134J5Q9Rvyfys27H0TTrLMADgzk0uyqOXBgXRKib1JjWIHvutJCf61gdJsSR1V8UlqPYVazYyABQZ-mvZgp5d_y_F1N6syinkqCDFzMwHdAGveH3f4IyOwGyAVRFjPjQhYI0q_V2PLQoAP3m7y4nxxr7pIYJ24we4HvIT_kq54jvBPeEl4cLyXObDgKkpghqkVpy4ob30fZDTjfQV3hdbgqU4BQolyERZY1dkV-HxSmYDQf8iz7lMOjgsc0A8MSth7gmbr6Is5InX0KuXj9H69J-LlhFmggzKoCi3fl9OZQltCO1EhFQOsBJvxZKHVsOGjBlA4vGIBc6JXGZ_a4"
+      "title": "Pompwagen | Palletwagen  standaard vorklengte 1150 mm",
+      "price": 239.5,
+      "url": "https://www.marktplaats.nl/v/zakelijke-goederen/machines-en-bouw-heftrucks-en-intern-transport/a1512537216-pompwagen-palletwagen-standaard-vorklengte-1150-mm?c=08c285449651fa109c354bbabe740c1b&casData=ZKqLKZ10IYteKPyuQb43HLpiPkvCjTWuR83NRd0VGZJzxZLKxrjQQL_zLCc8YGbIJRAYlN1UKydDdoFrirjwhiaZg1omy2hwPmdQSXmhImM0wx7rt-RuJ0VsGAn-CcOfQt5UkZPGy5-oLUopO23TehxGbikcMbJBV5sN7Nkl5zYTMV_hfBtoydeqarw9w8-xoIBGCfSh9CHrIj3XVj1-NJPpVQ6L8OzbwgZyM44dcSbdwW033VajzcOtCV20ROj5AkDpXe3iVca_2ubI5x5LDzBEhDCR7u0dwtc5NdUm944FbBEXR3K7yNY_vRqD1KcZk7scKDl-JfN7gW4divD0339sCN2WUuDFGZAcpvUddhYTu2wXPfbZ5Lsu-GeJoGKv17ZuZ1frxU1BwxqIcsblXmKiZKOKWorvN47Mh0CXglb0WQUMUrteEOQxCcK-zv_6l8dSl5UAZNeQ5YaPWRw8J1BQj9dgCszUejIfV7jtm9xRD55IdH8ipBvn-g0HBYRHFm5bcC0FV9EQn1PIEg3ZWAt_xAaBRSKbJ5on1_AEXU0"
     },
     {
-      "name": "Ouder kind tandem",
-      "price": "€ 175,00",
+      "title": "Ouder/kind tandem",
+      "price": 350,
+      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2356512680-ouder-kind-tandem"
+    },
+    {
+      "title": "Vermeiren Carpo 2 Limo 2 persoons scootmobiel duo tandem",
+      "price": 1990,
+      "url": "https://www.marktplaats.nl/v/diversen/brommobielen-en-scootmobielen/a1520946208-vermeiren-carpo-2-limo-2-persoons-scootmobiel-duo-tandem?c=08c285449651fa109c354bbabe740c1b&casData=dzHJjwJemHh1ARD6A15sys4C9qOkA62y1vAEv_s3V7gAahSOgj2Q6gYc3UkxBn3Pn8OqZSD0oQPbdzDLc9MuKXhYnHti5MMQCFmoBwOHoNkL0aEOwuNC0m7ClULC23jyS67fCr2jHdh5IM-5oidB3Femc21somX-s91Fih7mbBL6M7tFyJRYU0tUlRBE0tyA37vomX-B7i3QAzQqvJ1q-UZFDEUHIq8OA_ei2TZX216-6Jf82TLv4t-pt2Ft7u2-CQCOccHEmZwpDU45I6w43WhsA66zqjy2bSjghpUR4TgOL5TkQE0fmErvG-Q0QiRuWrttTHhXz3YreyYPcB7-pYybbmFcAKKFnB6YwCcFoh4tKqcCxGX2KwKRlYgS0vTbY6w5WQonWOkO9PrNTfDUnuINQq2g4bgw-AmlKR1IJ62iXIhHT6XvPNGBUymDqzUmZhnhIjfczR75fQPAZGnZZ6KgfJPYdHHTuvyxO2uWqMjRQGCOQWzM6ICmF3BSfZ5qviuN1mGSXHNqpthXW3By-hywFIcxCyCDls79uTPrmB4"
+    },
+    {
+      "title": "Sparta Comfort Tandem, 8 versnellingen spartandem",
+      "price": 500,
+      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2356907113-sparta-comfort-tandem-8-versnellingen-spartandem"
+    },
+    {
+      "title": "Tandem As Set compleet Aanhangw. V-2400 KG Div. Padmaten",
+      "price": 954.55,
+      "url": "https://www.marktplaats.nl/v/auto-diversen/aanhangwagen-onderdelen/a1460225758-tandem-as-set-compleet-aanhangw-v-2400-kg-div-padmaten?c=08c285449651fa109c354bbabe740c1b&casData=UNjDmjDDfdm0QPSTpQP0UUnzAHJ32XIxsou3ZVOrT5ym7f2_GrGlIqcvqsv4_nJqyRbneycmQNQ542BQ7EBtBKwU3mEd_q2W9l35DlO4MqnR6TgkZsNyhZ5IzS32NqoSmS7yUrXJ4rIel3fRwc-t3z6-rBykMaqhRwwbhQ7daFoKe28XYqbbb1ZYEw8WiPNjfbPAkDC0cwGq71rLlKFSJ7tR_M_jGqxUb9Nu0Z9P8GFr5uGZS1QRbcd3y3uJWd11lsj0pAephNwbPhdvqzHIW9py4terP-srtl3IExteqoheQEOaB3ULcsAojHBCfNNZ5Dpgu__LqQIA8-eQfhAhsMr8DXHdizu6DNXJ24XGuRUXv1-RKIMUpU1PfXPFBvLaQ_4QJjO69UTYnyIHoLeri1nsyvV2L513oTZn_RZh9GgOu9M53bl5pCmDPacCuwstCenL8yqvYgqOhryNcX5VLBDHCxi9E81-ay49T_CmNA0H5mTNeurfGZi5UlaYFBTtdi3_Xz1jLKUzZPf-QT_H8OpERlnFTwl4-Db7pXT8gOo"
+    },
+    {
+      "title": "Ouder kind tandem",
+      "price": 175,
       "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2355376376-ouder-kind-tandem"
     },
     {
-      "name": "Elektrische Drössiger tandem met Pendix eDrive",
-      "price": "€ 4.975,00",
-      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/a1518030269-elektrische-drossiger-tandem-met-pendix-edrive?c=08c285449651fa109c354bbabe740c1b&casData=ls6FKjLu8l-HdR10_sGwwa-jS_h20HJpWticue0o24qo9wbc6NvB7zqyg82g7RHNQ0e_Lh-L5Uxx1ij59gC4UEyTzPOm3K5zUv51ejhcFmG1XgEnd-oFdyO2wMhBycpswLK0eyrTAjW99TjM1lmePU8hHOw2sQG4ge98gmYQ6AVLWtNqrL55ckFXr3d9AXF9N24m4z7DxxAsLyPX8IZyjUwRtOzoiboDv4pTGW5vJ7trLm5Tn20Gpv9icMgoobSR1OpKcBPRUMciVPtrtm9Bp-6_SjNGsr__49ahQ4h905DoTby-FsBGBYXZ7g2LJUpGyD-mYVqX7CIL8ru0qolHko7kBaPPdKd9xB5klU3KSClWlXTpMn5X6RiNRgbo-7YkOGcAWu4moLlROPXmVSwyIuNDlkjbBLi4U_ZSGyrEpOnVCBNSAwOWtWlU4oxJVVihhfyNXIQzP7xPG2oKJoFs25Fj_od53ISQFLmm_B2MiiizazClYmAjolwqULiT3Mm4UzDxs2XQ_HGOGt5gg56JaYNVpAlUqcldPg9XhVuP9PQ"
+      "title": "Pompwagen | Palletwagen  standaard vorklengte 1150 mm partij",
+      "price": 217.95,
+      "url": "https://www.marktplaats.nl/v/zakelijke-goederen/machines-en-bouw-heftrucks-en-intern-transport/a1503397373-pompwagen-palletwagen-standaard-vorklengte-1150-mm-partij?c=08c285449651fa109c354bbabe740c1b&casData=9Eo5hpuXSvZW_FDgBgjtDAPqxdfRCYxvpbeGrIN0cbShdElVqeZuxbFJBHoEHtge5U_SBkQqWHrny6S5WrYh_9DXpe83U4rvLUbkEbMcqqJhD9RHHPAfX8X6_jbhv1BjiISvS-P_Cv08EXTy3G_2IxI_G1jG_iZyrMuVm1r4fY05dDhwsSTDcJyXQZ3B7aekd19r2p4DXaDcA33hafkJHYxeHWKH-iXXPy9986AvlLA9V37zGr5Q1kcdfVcUXCCoaGapDPA1OthP1Vgiu6pvpqaqNWnA-ek9zHVbN5aMYxu0w3EVVX-ne1BY3Kk6jC_hgxslN-jpfOdAr3S3RVMhqUVBs_Simcw7tscttC-wI9vMPKHTjEAO5RSL7JvNf6T-vLfzV1gtkTGbn5l_2egAVxR1Yvqgf8vSzP-W_Iy6UopDOGfg4AaDz_92BXOsVf0VTFLa-Wy4LLi7wjv1quDnbllh1jZGYxZ5oEG_KF005njiedUDhl6S7w41N88YRo68UOzXd4pRpVbT2DnSUWGDCL3FQELwecbphvJ5VPx0nps"
     },
     {
-      "name": "burly sydeco tandem",
-      "price": "€ 250,00",
-      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2354745650-burly-sydeco-tandem"
-    },
-    {
-      "name": "Pompwagen | Palletwagen  standaard vorklengte 1150 mm",
-      "price": "€ 227,53",
-      "url": "https://www.marktplaats.nl/v/zakelijke-goederen/machines-en-bouw-heftrucks-en-intern-transport/a1479023004-pompwagen-palletwagen-standaard-vorklengte-1150-mm?c=08c285449651fa109c354bbabe740c1b&casData=wGUdyaDbGZDzSfXgfVe9d9qRKV8z82Dn2XSTBpQ3cKb2ZJqLzjh3UOm_LGVEG7Q3rHrsmaNT681PylsAp8Cv8K8KDvfCtlLowmtZ83i04oyjsBeLq0sZgjj2WdgA8MaplOHS4QxEEmBk-0r1itqauWcJIDKUA2sdOoL4xF2XU-RBQ0u5Uh2tv2N8AhupQu2Fe0SQz2Vu1gHqc7BaVFQ_-EAu3jZt1k9pibITvJNnrXmPcTiMbNSpgPd-nzL6ivTdlHWklI_-ffq2yuNzoB_TkxSpWaYF62tqVGLad3OXWyfXhUTHEMrGv2wqUePRyJVkXFhGKVZ_MfO-VzMtQtceyj5ctg7xslxA-hOSY3zHlg49MFU3RRYzdEP-7kP4JHuGTB_AoggXJhzqFUUUYnEJQEy4oZWC1LGyZ5fL6XSL_UvVVvZ4_HJMwMOsafOJmdwXz9x6AihTqPfCKYhl5gZv5PMwG-cPrTKz4PbIUj3TIQnMl8Jy6nUAaKFQjgP7CEfdPuXbe-eJg72Dp2B1nmUEEDlicKBUQYGQFf54UxfJgok"
-    },
-    {
-      "name": "VAN RAAM ELEKTRISCHE TANDEM",
-      "price": "€ 1.750,00",
-      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2353038508-van-raam-elektrische-tandem"
-    },
-    {
-      "name": "Pompwagen | Palletwagen  standaard vorklengte 1150 mm",
-      "price": "€ 292,00",
-      "url": "https://www.marktplaats.nl/v/zakelijke-goederen/machines-en-bouw-heftrucks-en-intern-transport/a1512537212-pompwagen-palletwagen-standaard-vorklengte-1150-mm?c=08c285449651fa109c354bbabe740c1b&casData=_4jCZxuaJZEmy0P7Eihi1HywYkHcf4yq4_XGndfgi2ZAsY1uXEPQA4Ms73nc2Doe66nGJyOrD7LSyHXgyro9K4v8JcNB3uxCR2hVVhLffMpqOJQvsg8cE2PDGgmyeCrFQxfiC8RawtqkUczTAbsksfLeHBAW8hmgDoHpnLWCTaTOEIE_q6OxCx12De5sijdVJiEfD9grqNgLHAfaxHeOZ7mE7WjjQ2lEaL79Mm4GDGDYmAlp9CHhjJ2WbtSOpOrCNEWUz5ZI6tRFP8-doUFIB_SsaIy6Kgxe2ZQycXC8ygfiZeTJa6CbzvhKD6RN3LU7s2D9itaP1lRrFNolrE_iAqHdQ6uTvR0cLsHdmrsa2kkSPvjGgG3UzLow4Q66pGrACk6WRFMhskJbcu3hdBinsJFPN120rTXydPRAqZfJylgwmOn2RCvhI4Spt9JrfWeJHrAdbsUv_E8-zABXKm4sKNxbSeZzgceBjO3JigKM0vcDuF9VDh-yMo21xRmDk3nR5Jo9sTqH_mWvBSfwWtLUOCGMWZ3gO6SM12jsyxlDpi0"
-    },
-    {
-      "name": "Tandem",
-      "price": "€ 1.100,00",
+      "title": "Tandem",
+      "price": 1100,
       "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2345128289-tandem"
     },
     {
-      "name": "Vermeiren Carpo 2 Limo 2 persoons scootmobiel duo tandem",
-      "price": "€ 1.990,00",
-      "url": "https://www.marktplaats.nl/v/diversen/brommobielen-en-scootmobielen/a1520946208-vermeiren-carpo-2-limo-2-persoons-scootmobiel-duo-tandem?c=08c285449651fa109c354bbabe740c1b&casData=WKNwwxafXbrCg6qZ1mhcz5oDi_otMwJBochtnEY-BRBDnBSk876p0qDdIWB8GZHvKiqY7JJCAawDw452-nBSYTSDPRMU_95yU987qL5l7vBIbKxGQ3cdCbwng1B9XNgfxS4vRo8PuwzsPdr1TtcmibBXIIFNxpUhEw2CpImL_RWHNeRvSfKphR5XS9dIhmZ8MkOzInWXNYxVImyqQaRPlv3-LvPmG21XwpqftHb7bLSl3CeLqJbcskQTl175lNPavNlBgNg-e4f9jQ1XuNONUACPSJCqXKWKWsYy81c5mG3HCClyenEbis_q7VdICOls6O13AGuPTplrdRyuCHHwPas-D0vSEndtZffFQ6-0QMe8Ucd06QGYVerZmXqf2840swDsgTuumHjp35VTaEGkSezWPWRbZMjmAdZS7o0i5nxgV9fbcM1dN-vyT-LkZDZhkdk2Uk4pjf77Cg70GQ87qwxLNgeeep1r-e3SN18wJXR1Xx0zS2MYZxVqRtjkBITymMM6Ug1MxAUN3DJBaOpG473IiYDtoGbmhRyHGamhRM8"
+      "title": "E-Hase Pino tandem met deelbare frame",
+      "price": 2950,
+      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2354760138-e-hase-pino-tandem-met-deelbare-frame"
     },
     {
-      "name": "Gazelle Tandem fiets",
-      "price": "€ 345,00",
-      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2350681234-gazelle-tandem-fiets"
+      "title": "Pompwagen | Palletwagen  standaard vorklengte 1150 mm partij",
+      "price": 215.55,
+      "url": "https://www.marktplaats.nl/v/zakelijke-goederen/machines-en-bouw-heftrucks-en-intern-transport/a1503397136-pompwagen-palletwagen-standaard-vorklengte-1150-mm-partij?c=08c285449651fa109c354bbabe740c1b&casData=5zIBssQGAeIQ7Bxcb6WfCDrx7Z09zCLyMx4XolGi_HBn6QAERV7ItOoofDQ8FNnS79rRFnkS8Jf4Xr4hD9DYIcF_8YKLTOfMmNZYR_0r5vWMgWMnjkLGHYBBIT4Ag3XHlGe1R0S7NnXGvrTVjq5wUuTBrixNKZ3wgtsVZLkTEurmczBKhIKqJTCvf0GP3d3ICJKoakiy8J2DJ_1gH-FqqOcQNSKXeQT9LIRcU9ICzbPItivLFonOz0XyFHPGD6rPDfHP9pmQKIl_uG19nLwuKtXtefylPFnmT6E5A7gMQIrtI7gRt-EuBduW-YCgFMO_kUnAnYuGG3rsjyGU40QGZ-9koZpi6OcFJ-PQ-1qI9j6XPjUOBchW2WWnGbjSX6JCw-w1zuJUQe3Smjphk1XF0A29touPm0_rMuyxgspwH95CO7V5va8V79eyS1REpXz3iaAxUy6UF-XExqQDWXZYwL0Oy9AMHKg3aVhqrPv0jS2DxZqx-LvtfXksiyxoVfwXerkfIJ5gDblq2_3LqHSeRX__W3wTppurXP2Q9hYAps0"
     },
     {
-      "name": "Pompwagen | Palletwagen  standaard vorklengte 1150 mm",
-      "price": "€ 239,50",
-      "url": "https://www.marktplaats.nl/v/zakelijke-goederen/machines-en-bouw-heftrucks-en-intern-transport/a1512537216-pompwagen-palletwagen-standaard-vorklengte-1150-mm?c=08c285449651fa109c354bbabe740c1b&casData=AdMoksODHSfPhohtwKrDhy98zjpjkvnc2Tv07_Rpmow1v3hA3HZuhZ9LnAYSqJ2rSmpHpDiQk_bFwyrnxYeHNd065NzC_UJIcxdKvKslO5K5hsZIgQAXO3O_8CsQou5zVEJpblPofOkkuPNqV1RybC-cD3XrjCnwYXN6pYbLxAvYm-N8Ptj5ASbbCnpKzwYbsZAcSck1s9cGg6hItUzifoDhSx2lPMn4iR8fPaM7Mq-bd0_EJ9pgl1NjFpk6G4GJTTR2nwfj7xEf_r8-9Ah0w4H-Fft8JsdzqmNangheCEWNz2McUH9uKD9Oj5SsT57cmVY-5AHxi5ek8vg1YK1HlQdbfRr9KI4c_9p8RjxcOjygzdMa87dD9CfpQVZqjNIF52cVj_U55r9nbeyBAxSUum36nF1OILiI2xz2wpo6p9WnmlOubIvAot3FMJzrY63URodbyj320YubH3G2f-T3eIFisM4jhvZkHbdnC09KLhAk9BaUWMAlj1raJkqXbsQitVgjbpnA0rcXe-6f2mUzSR5DN78Wjw8JDonCW8wCtYA"
-    },
-    {
-      "name": "Antieke tandem",
-      "price": "€ 39,",
+      "title": "Antieke tandem",
+      "price": 39,
       "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/m2317932419-antieke-tandem"
     },
     {
-      "name": "Koga Twin Traveller",
-      "price": "€ 5.475,00",
-      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/a1518030180-koga-twin-traveller?c=08c285449651fa109c354bbabe740c1b&casData=E4Kq7MF61g83eaxWxdMCty9Nc2WGwVKeRMTqyK7SaoeoexjQNNvvhr1iq69_3C4HKglP0sgVYXRhjyCQmxSXKdSh3-x91L7SWgvoZ5ttqflOHwWgyyBBnThofgOFAEVtekZ-NniWraQ742k8ivKgsoHAvHHlxSzcI4O2Pvmm0hUy16LsDdVo7wpJ2-LCx6Os5GkYqUQvWzSwA9k7KXwPPmbxWEE9PxkVa_34FtIwdleEbpt2WwDiLbcBbtBCw70x5XXoVULMwc8Uwo2zFSsRWqxCuYl_-W03_WuK4_NXaUSO11P0KweY_1FOZBQGSdr797hSiO4Hk0wh2yrLlZxBiqWf30f3kVX8ojzya4vuZNiGZOPBM5vTxja1Zl7WnYhZr9Uz7qqA__g7gWJPaLlk6Z4k9Lb002Nd9P8_CaSzCcEBtr74PEAHOjwPtOm5eHXWsEEmO4K9N51MvH5NxSG-8NyIbV2VIq4g4UDeIEkbOaTBK1Zz0aJ9Gj5fx9Q80GNUXxpIaEIRDfvRcQ9U3-tpa1uk9VJFpyoJImKrHSR4Gi4"
+      "title": "Koga Twin Traveller",
+      "price": 5475,
+      "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-tandems/a1518030180-koga-twin-traveller?c=08c285449651fa109c354bbabe740c1b&casData=bMY89hlzBri25wh463947rcBdskG6CcFCMrsW7Bo_lePSWkJtZuCeh3vkTiuyn3oHHKQhRt4c5MlQG57dy3Zg9LrJtF-c3ApTDTs83Z5VDXxl8z0DKq90h1vK-MdugXYVVldGclehsP_JWhzcLGbZ8j8Lq0VWqB2MlPeQELma6n4x9IhHeU3HKbV5Bx7MFCEFzmxefXI-x73dFXwpU11q_uPnstzxkI_mkGWgZmdYuC0Z1OUYeJzVHa_UAwRmJnFijAHstbbPrdKaWwEiwkSpNN-GIlBJj3LQ-agcSLECVg4dGshDC1gYnEVcyU3Blw0HpaKI2YKbccik11yELFKExuPa6TgU0tn0xWObUlfL_26vn9_xkBgKC2-7zEmr1DSKlMeO9vrRG2sIvaCQakxZ7B83YET7btflT7kbrWJRzX6BTD2KIpVd3t9fAIOojqM1IfOFocN2HcFGOTKtAE-Oa2dxev8rSGef954BtebActtGiTOvBjOn6sh38BAL3TvtjW1kNZk-JhIdQPLdbSbc_qTa3sQ_G1l1JJrWs71Fnk"
     }
   ]
 }

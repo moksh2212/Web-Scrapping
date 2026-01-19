@@ -1,30 +1,62 @@
 import puppeteer from "puppeteer";
 import * as fs from "fs";
 import * as path from "path";
-import { ScraperFactory } from "./platforms/ScraperFactory";
-import { Listing } from "./platforms/BaseScraper";
+import { Marktplaats } from "./platforms/marktplaats";
+import { MediaMarkt } from "./platforms/mediamarkt";
+import { ASOS } from "./platforms/asos";
+import { Platform, Listing } from "./platforms/base";
+
+/**
+ * Platform factory - no switch/if-else chains
+ */
+class PlatformFactory {
+  private static platforms: Map<string, new () => Platform> = new Map([
+    ["marktplaats", Marktplaats],
+    ["mediamarkt", MediaMarkt],
+    ["asos", ASOS],
+  ]);
+
+  static getPlatform(name: string): Platform {
+    const PlatformClass = this.platforms.get(name.toLowerCase());
+
+    if (!PlatformClass) {
+      const available = Array.from(this.platforms.keys()).join(", ");
+      throw new Error(
+        `Platform "${name}" not supported. Available: ${available}`
+      );
+    }
+
+    return new PlatformClass();
+  }
+
+  static getAvailablePlatforms(): string[] {
+    return Array.from(this.platforms.keys());
+  }
+}
 
 async function main() {
-  const platformName = "marktplaats.nl"; 
-  const searchQuery = "tandem";
-  const maxUrls = 100;
+  // Configuration
+  const platformName = "marktplaats"; // Change to: mediamarkt, asos
+  const keyword = "tandem";
+  const limit = 100;
 
   console.log("=".repeat(80));
-  console.log("ABSTRACT SCRAPER");
+  console.log("MULTI-PLATFORM SCRAPER");
   console.log("=".repeat(80));
   console.log(`Platform: ${platformName}`);
-  console.log(`Query: ${searchQuery}`);
-  console.log(`Max URLs: ${maxUrls}`);
+  console.log(`Keyword: ${keyword}`);
+  console.log(`Limit: ${limit}`);
   console.log("=".repeat(80) + "\n");
 
-  let scraper;
+  // Get platform instance
+  let platform: Platform;
   try {
-    scraper = ScraperFactory.getScraper(platformName);
-    console.log(`✓ Loaded scraper for: ${scraper.getPlatformName()}\n`);
+    platform = PlatformFactory.getPlatform(platformName);
+    console.log(`✓ Loaded platform: ${platform.name}\n`);
   } catch (error) {
     console.error(`✗ Error: ${error}`);
     console.log(
-      `\nSupported platforms: ${ScraperFactory.getSupportedPlatforms().join(", ")}`
+      `\nAvailable platforms: ${PlatformFactory.getAvailablePlatforms().join(", ")}`
     );
     process.exit(1);
   }
@@ -35,16 +67,12 @@ async function main() {
   });
 
   try {
-    await scraper.initialize(browser);
+    const page = await browser.newPage();
+    await page.setViewport({ width: 1280, height: 800 });
 
-    console.log("Step 1: Navigating to search page...");
-    await scraper.navigateToSearch(searchQuery);
-
-    console.log("\nStep 2: Collecting listing URLs...");
-    const urls = await scraper.collectListingUrls(
-      scraper["page"]!,
-      maxUrls
-    );
+    // Step 1: Search
+    console.log("Step 1: Searching...");
+    const urls = await platform.scrapeSearchPage(page, keyword, limit);
     console.log(`✓ Found ${urls.length} listings\n`);
 
     if (urls.length === 0) {
@@ -52,65 +80,79 @@ async function main() {
       return;
     }
 
-    console.log("Step 3: Scraping listings...");
-    const listings = await scraper.scrapeListings(urls);
+    // Step 2: Scrape items
+    console.log("Step 2: Scraping items...");
+    const listings: Listing[] = [];
 
-        console.log("\nStep 4: Saving results...");
-    await saveResults(listings, platformName, searchQuery);
+    for (let i = 0; i < urls.length; i++) {
+      console.log(`  Scraping ${i + 1}/${urls.length}...`);
+
+      try {
+        const listing = await platform.scrapeItemPage(page, urls[i]);
+        listings.push(listing);
+      } catch (error) {
+        console.error(`  Error: ${error}`);
+        listings.push({
+          title: "Error - Could not scrape",
+          price: 0,
+          url: urls[i],
+        });
+      }
+    }
+
+    // Step 3: Save results
+    console.log("\nStep 3: Saving results...");
+    saveResults(listings, platformName, keyword);
 
     printSummary(listings);
 
-    console.log("\n✓ Scraping completed successfully!");
+    console.log("\n✓ Scraping completed!");
   } catch (error) {
     console.error("\n✗ Error during scraping:", error);
     throw error;
   } finally {
-    await scraper.cleanup();
     await browser.close();
   }
 }
 
-
-async function saveResults(
+function saveResults(
   listings: Listing[],
   platform: string,
-  query: string
-): Promise<void> {
+  keyword: string
+): void {
   const result = {
     platform,
-    query,
+    keyword,
     timestamp: new Date().toISOString(),
-    totalListings: listings.length,
+    total: listings.length,
     listings,
   };
 
   const outputPath = path.join(process.cwd(), "result.json");
   fs.writeFileSync(outputPath, JSON.stringify(result, null, 2), "utf-8");
 
-  console.log(`✓ Results saved to: ${outputPath}`);
+  console.log(`✓ Saved to: ${outputPath}`);
 }
-
 
 function printSummary(listings: Listing[]): void {
   console.log("\n" + "=".repeat(80));
-  console.log("SCRAPING SUMMARY");
+  console.log("SUMMARY");
   console.log("=".repeat(80));
 
-  console.log(`\nTotal listings scraped: ${listings.length}`);
+  const successful = listings.filter(
+    (l) => l.title !== "Error - Could not scrape"
+  ).length;
+  const failed = listings.length - successful;
 
-  const successfulListings = listings.filter(
-    (l) => l.name !== "Error - Could not scrape"
-  );
-  const failedListings = listings.length - successfulListings.length;
+  console.log(`Total: ${listings.length}`);
+  console.log(`Successful: ${successful}`);
+  console.log(`Failed: ${failed}`);
 
-  console.log(`Successful: ${successfulListings.length}`);
-  console.log(`Failed: ${failedListings}`);
-
-  console.log("\nPreview (first 5 listings):");
+  console.log("\nPreview (first 5):");
   listings.slice(0, 5).forEach((listing, index) => {
-    console.log(`\n${index + 1}. ${listing.name}`);
-    console.log(`   Price: ${listing.price}`);
-    console.log(`   URL: ${listing.url.substring(0, 80)}...`);
+    const priceStr = listing.price > 0 ? `€${listing.price.toFixed(2)}` : "N/A";
+    console.log(`\n${index + 1}. ${listing.title}`);
+    console.log(`   Price: ${priceStr}`);
   });
 
   console.log("\n" + "=".repeat(80));

@@ -1,21 +1,14 @@
 import { Page } from "puppeteer";
-import { BaseScraper, Listing } from "./BaseScraper";
+import { Listing, Platform } from "./base";
 
 function delay(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+export class Marktplaats implements Platform {
+  name = "marktplaats";
 
-export class MarktplaatsScraper extends BaseScraper {
-  getPlatformName(): string {
-    return "marktplaats.nl";
-  }
-
-  getSearchUrl(query: string): string {
-    return `https://www.marktplaats.nl/q/${encodeURIComponent(query)}/`;
-  }
-
-  async handleCookieConsent(page: Page): Promise<void> {
+  private async handleCookieConsent(page: Page): Promise<void> {
     try {
       await delay(1500);
 
@@ -40,18 +33,29 @@ export class MarktplaatsScraper extends BaseScraper {
       if (clicked) {
         console.log(`Cookie consent handled: ${clicked}`);
         await delay(2000);
-      } else {
-        console.log("No cookie consent overlay found or already dismissed");
       }
     } catch (error) {
       console.log("Cookie consent handling skipped:", error);
     }
   }
 
-  async collectListingUrls(page: Page, maxUrls: number = 100): Promise<string[]> {
+  // YOUR IMPLEMENTATION (will be replaced during merge)
+  async scrapeSearchPage(
+    page: Page,
+    keyword: string,
+    limit: number
+  ): Promise<string[]> {
+    const searchUrl = `https://www.marktplaats.nl/q/${keyword}/`;
+    
+    await page.goto(searchUrl, {
+      waitUntil: "networkidle2",
+      timeout: 30000,
+    });
+
+    await this.handleCookieConsent(page);
+
     const urls = await page.evaluate(() => {
       const urlList: string[] = [];
-
       const allLinks = document.querySelectorAll(
         'a[href*="/a/"], a[href*="/v/"]'
       );
@@ -72,10 +76,11 @@ export class MarktplaatsScraper extends BaseScraper {
       return urlList;
     });
 
-    return urls.slice(0, maxUrls);
+    return urls.slice(0, limit);
   }
 
-  async scrapeListing(page: Page, url: string): Promise<Listing> {
+  // YOUR IMPLEMENTATION (will be KEPT during merge)
+  async scrapeItemPage(page: Page, url: string): Promise<Listing> {
     await page.goto(url, {
       waitUntil: "networkidle2",
       timeout: 15000,
@@ -86,34 +91,41 @@ export class MarktplaatsScraper extends BaseScraper {
     });
 
     const listing = await page.evaluate((listingUrl) => {
-      let name = "N/A";
+      let title = "N/A";
       const titleElement =
         document.querySelector('[data-testid="ad-title"]') ||
         document.querySelector("h1");
 
       if (titleElement?.textContent) {
-        name = titleElement.textContent.trim();
+        title = titleElement.textContent.trim();
       }
 
-      let price = "N/A";
+      let priceText = "N/A";
+      const priceElement = document.querySelector('[data-testid="price-label"]');
 
-      const priceElement = document.querySelector(
-        '[data-testid="price-label"]'
-      );
       if (priceElement?.textContent) {
-        price = priceElement.textContent.trim();
+        priceText = priceElement.textContent.trim();
       }
 
-      if (price === "N/A") {
+      if (priceText === "N/A") {
         const allText = document.body.innerText;
         const priceMatch = allText.match(/€\s*[\d.,]+/);
         if (priceMatch) {
-          price = priceMatch[0].trim();
+          priceText = priceMatch[0].trim();
         }
       }
 
+      let price = 0;
+      if (priceText !== "N/A") {
+        const numericPrice = priceText
+          .replace(/[€\s]/g, "")
+          .replace(/\./g, "")
+          .replace(",", ".");
+        price = parseFloat(numericPrice) || 0;
+      }
+
       return {
-        name,
+        title,
         price,
         url: listingUrl,
       };
