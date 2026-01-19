@@ -1,7 +1,7 @@
 import { Platform } from "./base";
-import { MediaMarkt } from "./mediamarkt";
 import { Asos } from "./asos";
 import { Marktplaats } from "./Marktplaats";
+import { MediaMarkt } from "./mediamarkt";
 export class PlatformFactory {
   private static platforms: Map<string, new () => Platform> = new Map([
     ["marktplaats", Marktplaats],
