@@ -1,23 +1,108 @@
 {
-  "platform": "marktplaats",
+  "platform": "asos",
   "searchTerm": "tshirt",
-  "timestamp": "2026-01-19T19:05:16.981Z",
-  "totalListings": 3,
+  "timestamp": "2026-01-19T22:05:26.863Z",
+  "totalListings": 20,
   "listings": [
     {
-      "title": "Brazil - Ronaldinho - T-shirt",
-      "price": 480,
-      "url": "https://www.marktplaats.nl/v/verzamelen/overige-verzamelen/a1521756447-brazil-ronaldinho-t-shirt?c=d97e27c274e75147b4afd0f5eb58c81b&casData=EQSgzfqDQgMN93R5ztD-40FkEh7zj1TwAdpvj5gf1U5k0GrTZMIAnmk7MNjMnLdwqBhG-276v0eJa5m_vCNK9ZRwH9mHWANrzlMpej6vWvfn6wmfBB8cRDdRLwKhi03JVvOOkLld8o_7wX-ftICN0AeSHH8xK3cqhRdK5iECHGA6vTHQqY1egQ_xoxXQArxY-TS_2uwOzTsDMq95IVjVgUsuRKXnnOsk0Y_a-MIblIFOXJAr0i_1-0eoTOy-2if-gWJJT61YVyVBqRYnHvVZ_AF2Gg4QxHxqDmUoKMdmZ-6cIpYGC0i8rSWLXfuzzSmahYtcDGOGJLQ6iCPwX-mE8mpx9_GQnrexV58jF5gTAzwNowQnNM49f2yQlkKSu1bXRT5LxRlh2s5WAYtzCah2rQuiiFAQgyoiqpu_EeOHu1pwmYX9LbvnefTh4bQqzJNQCEL-aLKGFQGyDMiVcZ9MVYdVGzQMm91OocG1di6LilrNsBg_1DiLh-qDeUZNeNlN1pKNIgJaMxwYzrdSzDxFWNb1m2TcDhz-ZtdlhofnsUSa7Tdtn8GtCvrtBAi3gw9L"
+      "title": "ASOS DESIGN soft baby tee in charcoal",
+      "price": 10,
+      "url": "https://www.asos.com/asos-design/asos-design-soft-baby-tee-in-charcoal/prd/208833057#colourWayId-208833094"
     },
     {
-      "title": "Napapijri T-shirt in maat M Blauw",
-      "price": 35.95,
-      "url": "https://www.marktplaats.nl/v/kleding-heren/t-shirts/a1521915489-napapijri-t-shirt-in-maat-m-blauw?c=d97e27c274e75147b4afd0f5eb58c81b&casData=6141NLnRvL_UjhXGhHCr57eoWp5OWpO8Cc_d4hEoOyxl2SGYgvOuMUmLE9gi34tu_L0zN8EzFwcP1FutYBCrvQzRD3KTf6kZi29wTZfzgzfJWccENOwOyEZEuC-veNblo-zj7vVFNztPv6kFooZT3dJ3TDIGva4f8GEABieFyG7OqROVw5G6qx9d9FkGLxIRT14uwt0vMBEE02rfjrCe2iweiXNg3zjeKyXzJt2PtYuI0sLhHOENyxe4jdLcvgzCCSmcdmMu9lWkGXFubPBJBAOSsvumb8a5s1yA1o36nXOP8XHeNseMNTbbpxNF3dvMV1bIbNc-CYFGrIXoM81Dtb8p4g-SeqsO7BqkJ2Ds1yTYWVb71lS2bjuE2JRumvRobPRnwnHsqSkFYhjCrJfE7EV3KZHJsgavMUPyW55hFR7Uyu8nq2WsC7t2jvMWapBbtvKF3xs4pY_Rb0KCwgWrQ5YESufJPFPEEaHJ2cU60JMbcLDfR9n0IQ-4YdfJv_x6S5yv769sNzQqDEBIokKL4DNCf5nF0MGnFUPf_9MR8qzl7WVjTNy2ul-o6rkz9Irq"
+      "title": "Cotton On 90's baby tee in oxford blue",
+      "price": 12,
+      "url": "https://www.asos.com/cotton-on/cotton-on-90s-baby-tee-in-oxford-blue/prd/209354102#colourWayId-209354107"
     },
     {
-      "title": "Donnay Donnay Heren - T-Shirt Vince - Grass Green",
-      "price": 65,
-      "url": "https://www.marktplaats.nl/v/kleding-heren/t-shirts/a1514752896-donnay-donnay-heren-t-shirt-vince-grass-green?c=d97e27c274e75147b4afd0f5eb58c81b&casData=vIm-Vbq3LW0KaR8pF-FNp6Wlk_ABPcrYtCQd8pqLbJXPCFweKk1H-jNfo3USx3TG54c18E9NNSrNhCh9c1rrEZOUTiqex7LFiNTb59m-nnHv19A2GRBuHBbXYX29ywhBCuZyQy_xK5vPv6joWit_xgF9fQRsdEGlMlKOd8vKpmr41wuVWxPliYdyg88BmuV6BcEULZxsNdHuXEJoC5k2zQ0p2Y53qKvQE5UUW5QdiEYmBpr7mKjApcOw4TeiwF3CJ6lZlPZhDKgXuqLWrBwHNKii2Or8XlsE5YuMC2zpcMmxxeTAETePyQVyE9K0nYUKUAEqEilzXBv7gLhap0mb4B_oczCkZsNM52QSSOBzGTOIbAw8bc-_G1ZmKTLfWR89qBuAstvyB2TzDjftFjpYrjPxFoXCrw6PmxgNSLJ4UcM4Wi292nX-KlfgBqHWhp8_g1unlR3sQ1nTx3BUJ8OFfzgUGeXDh6eImYm_2iJR0CI5g-XqZ61t5CIwe60QD6Dnjza_TM2ZaSniBgsiwCN7mTcCsdmHSCu_zpqjP8N_RSoUT1lq7xCKXv3GFpYzzojS"
+      "title": "Stradivarius heavyweight regular fit t-shirt in ecru",
+      "price": 9.99,
+      "url": "https://www.asos.com/stradivarius/stradivarius-heavyweight-regular-fit-t-shirt-in-ecru/prd/208757113#colourWayId-208757116"
+    },
+    {
+      "title": "Cotton On 90s baby tee in white",
+      "price": 0,
+      "url": "https://www.asos.com/cotton-on/cotton-on-90s-baby-tee-in-white/prd/208039168#colourWayId-208039179"
+    },
+    {
+      "title": "ASOS DESIGN regular fit t-shirt with fleur graphic in washed lemon",
+      "price": 9.9,
+      "url": "https://www.asos.com/asos-design/asos-design-regular-fit-t-shirt-with-fleur-graphic-in-washed-lemon/prd/208807667#colourWayId-208807672"
+    },
+    {
+      "title": "COLLUSION fitted t-shirt in black",
+      "price": 6.99,
+      "url": "https://www.asos.com/collusion/collusion-fitted-t-shirt-in-black/prd/209007034#colourWayId-209007055"
+    },
+    {
+      "title": "Pull&Bear Long sleeve raglan t-shirt in striped",
+      "price": 15.99,
+      "url": "https://www.asos.com/pullbear/pullbear-long-sleeve-raglan-t-shirt-in-striped/prd/209770511#colourWayId-209770513"
+    },
+    {
+      "title": "ONLY orange graphic crop t-shirt in white",
+      "price": 7.2,
+      "url": "https://www.asos.com/only/only-orange-graphic-crop-t-shirt-in-white/prd/208656181#colourWayId-208656184"
+    },
+    {
+      "title": "adidas Originals supper club graphic t-shirt in off white",
+      "price": 0,
+      "url": "https://www.asos.com/adidas-originals/adidas-originals-supper-club-graphic-t-shirt-in-off-white/prd/209250439#colourWayId-209250441"
+    },
+    {
+      "title": "ASOS DESIGN regular fit crew neck t-shirt 2 pack in black & white",
+      "price": 15,
+      "url": "https://www.asos.com/asos-design/asos-design-regular-fit-crew-neck-t-shirt-2-pack-in-black-white/prd/208393087#colourWayId-208393091"
+    },
+    {
+      "title": "Bershka short sleeve crew neck t-shirt in navy",
+      "price": 7.99,
+      "url": "https://www.asos.com/bershka/bershka-short-sleeve-crew-neck-t-shirt-in-navy/prd/209126547#colourWayId-209126554"
+    },
+    {
+      "title": "ASOS DESIGN slubby boxy short sleeve t-shirt in cream",
+      "price": 19.8,
+      "url": "https://www.asos.com/asos-design/asos-design-slubby-boxy-short-sleeve-t-shirt-in-cream/prd/208161686#colourWayId-208161692"
+    },
+    {
+      "title": "ASOS DESIGN long sleeve skater tee in khaki stripe",
+      "price": 21.6,
+      "url": "https://www.asos.com/asos-design/asos-design-long-sleeve-skater-tee-in-khaki-stripe/prd/209259210#colourWayId-209259213"
+    },
+    {
+      "title": "Cotton On all day crew tee in grey",
+      "price": 12,
+      "url": "https://www.asos.com/cotton-on/cotton-on-all-day-crew-tee-in-grey/prd/208615695#colourWayId-208615706"
+    },
+    {
+      "title": "ASOS DESIGN regular fit crew neck t-shirt 3 pack - black white & grey marl",
+      "price": 22,
+      "url": "https://www.asos.com/asos-design/asos-design-regular-fit-crew-neck-t-shirt-3-pack-black-white-grey-marl/prd/208375824#colourWayId-208375826"
+    },
+    {
+      "title": "COLLUSION Unisex Long sleeve logo t-shirt in green",
+      "price": 9.99,
+      "url": "https://www.asos.com/collusion/collusion-unisex-long-sleeve-logo-t-shirt-in-green/prd/209647153#colourWayId-209647162"
+    },
+    {
+      "title": "Pull&Bear Gathered waist t-shirt in stone",
+      "price": 11.99,
+      "url": "https://www.asos.com/pullbear/pullbear-gathered-waist-t-shirt-in-stone/prd/209513290#colourWayId-209513294"
+    },
+    {
+      "title": "Topshop soft touch wide sleeve skater tee in taupe",
+      "price": 32,
+      "url": "https://www.asos.com/topshop/topshop-soft-touch-wide-sleeve-skater-tee-in-taupe/prd/209784885#colourWayId-209784888"
+    },
+    {
+      "title": "Pull&Bear Striped boxy t-shirt in striped",
+      "price": 15.99,
+      "url": "https://www.asos.com/pullbear/pullbear-striped-boxy-t-shirt-in-striped/prd/209755082#colourWayId-209755091"
+    },
+    {
+      "title": "Topshop everyday tee in white",
+      "price": 10,
+      "url": "https://www.asos.com/topshop/topshop-everyday-tee-in-white/prd/209206821#colourWayId-209206823"
     }
   ]
 }

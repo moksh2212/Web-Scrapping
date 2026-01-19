@@ -11,21 +11,23 @@ export class MediaMarkt implements Platform {
   async scrapeSearchPage(
     page: Page,
     keyword: string,
-    limit: number
+    limit: number,
   ): Promise<string[]> {
     const urls: string[] = [];
 
     const categoryMap: { [key: string]: string } = {
-      "phone": "smartphones-283",
-      "smartphone": "smartphones-283",
-      "laptop": "laptops-160",
-      "tv": "televisies-82",
-      "headphone": "koptelefoons-355",
-      "camera": "digitale-cameras-114",
+      phone: "smartphones-283",
+      smartphone: "smartphones-283",
+      laptop: "laptops-160",
+      tv: "televisies-82",
+      headphone: "koptelefoons-355",
+      camera: "digitale-cameras-114",
     };
 
-    const category = categoryMap[keyword.toLowerCase()] || `search.html?query=${encodeURIComponent(keyword)}`;
-    const url = category.includes("search.html") 
+    const category =
+      categoryMap[keyword.toLowerCase()] ||
+      `search.html?query=${encodeURIComponent(keyword)}`;
+    const url = category.includes("search.html")
       ? `https://www.mediamarkt.nl/nl/${category}`
       : `https://www.mediamarkt.nl/nl/category/${category}.html`;
 
@@ -37,12 +39,12 @@ export class MediaMarkt implements Platform {
 
       await this.handleCookieConsent(page);
       await delay(3000);
-      
+
       await page.evaluate(() => {
         window.scrollTo(0, 1000);
       });
       await delay(2000);
-      
+
       await page.evaluate(() => {
         window.scrollTo(0, 2000);
       });
@@ -50,8 +52,8 @@ export class MediaMarkt implements Platform {
 
       const items = await page.evaluate(() => {
         const urlList: string[] = [];
-        const allLinks = document.querySelectorAll('a');
-        
+        const allLinks = document.querySelectorAll("a");
+
         allLinks.forEach((link) => {
           const href = link.getAttribute("href");
           if (href && href.includes("/nl/product/")) {
@@ -70,7 +72,6 @@ export class MediaMarkt implements Platform {
 
       console.log(`Found ${items.length} product links`);
       urls.push(...items.slice(0, limit));
-
     } catch (error) {
       console.error(`Error scraping:`, error);
     }
@@ -93,27 +94,38 @@ export class MediaMarkt implements Platform {
         title = titleElement.textContent.trim();
       }
 
-      let priceText = "N/A";
-      const priceElement =
-        document.querySelector('[data-test="mms-product-price"]') ||
-        document.querySelector('[class*="price"]');
-
-      if (priceElement?.textContent) {
-        priceText = priceElement.textContent.trim();
-      }
-
-      if (priceText === "N/A") {
-        const allText = document.body.innerText;
-        const priceMatch = allText.match(/€\s*[\d.,]+/);
-        if (priceMatch) {
-          priceText = priceMatch[0].trim();
-        }
-      }
-
       let price = 0;
-      if (priceText !== "N/A") {
-        const cleanPrice = priceText.replace(/[€\s]/g, "").replace(",", ".");
-        price = parseFloat(cleanPrice) || 0;
+      const wholeEl = document.querySelector(
+        '[data-test="branded-price-whole-value"]',
+      );
+      const decimalEl = document.querySelector(
+        '[data-test="branded-price-decimal-value"]',
+      );
+
+      if (wholeEl) {
+        let whole = wholeEl.textContent || "";
+        let decimal = decimalEl?.textContent || "00";
+
+        whole = whole.replace(/[^\d]/g, ""); 
+        decimal = decimal.replace(/[^\d]/g, "");
+
+        if (decimal === "" || decimal === "–") {
+          decimal = "00";
+        }
+
+        price = Number(`${whole}.${decimal}`);
+      }
+
+      if (!price || Number.isNaN(price)) {
+        const match = document.body.innerText.match(/€\s?\d[\d.,]*/);
+        if (match) {
+          price = Number(
+            match[0]
+              .replace(/[^\d.,]/g, "")
+              .replace(/\./g, "")
+              .replace(",", "."),
+          );
+        }
       }
 
       return {
@@ -132,11 +144,12 @@ export class MediaMarkt implements Platform {
 
       const clicked = await page.evaluate(() => {
         const buttons = document.querySelectorAll("button, a");
-        
+
         for (const button of Array.from(buttons)) {
           const text = button.textContent?.toLowerCase() || "";
-          const ariaLabel = button.getAttribute("aria-label")?.toLowerCase() || "";
-          
+          const ariaLabel =
+            button.getAttribute("aria-label")?.toLowerCase() || "";
+
           if (
             text.includes("alle") ||
             text.includes("show all") ||
@@ -151,7 +164,7 @@ export class MediaMarkt implements Platform {
             }
           }
         }
-        
+
         return null;
       });
 
@@ -159,7 +172,9 @@ export class MediaMarkt implements Platform {
         console.log(`Clicked "show all" button: ${clicked}`);
         await delay(2000);
       } else {
-        console.log("No 'show all' button found - results may already be visible");
+        console.log(
+          "No 'show all' button found - results may already be visible",
+        );
       }
     } catch (error) {
       console.log(error);
@@ -171,10 +186,14 @@ export class MediaMarkt implements Platform {
       await delay(2000);
 
       const clicked = await page.evaluate(() => {
-        const acceptButton = 
-          document.querySelector('button#pwa-consent-layer-accept-all-button') ||
-          document.querySelector('button[data-test="pwa-consent-layer-accept-all"]');
-        
+        const acceptButton =
+          document.querySelector(
+            "button#pwa-consent-layer-accept-all-button",
+          ) ||
+          document.querySelector(
+            'button[data-test="pwa-consent-layer-accept-all"]',
+          );
+
         if (acceptButton && acceptButton instanceof HTMLElement) {
           acceptButton.click();
           return "accept-all";
