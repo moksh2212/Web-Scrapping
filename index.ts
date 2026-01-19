@@ -1,13 +1,14 @@
 import puppeteer, { Browser } from "puppeteer";
+import { Asos } from "./platforms/Asos";
 import { Listing } from "./platforms/base";
 import { writeFileSync } from "fs";
-import { MediaMarkt } from "./platforms/mediamarkt";
+
 async function main() {
   const args = process.argv.slice(2);
   
   if (args.length < 2) {
-    console.log("Usage: npx tsx test-mediamarkt.ts <search-term> <limit>");
-    console.log("Example: npx tsx test-mediamarkt.ts phone 5");
+    console.log("Usage: npx tsx test-asos.ts <search-term> <limit>");
+    console.log("Example: npx tsx test-asos.ts crocs 5");
     process.exit(1);
   }
 
@@ -20,13 +21,13 @@ async function main() {
   }
 
   console.log(`\n${"=".repeat(80)}`);
-  console.log(`Testing MediaMarkt - Searching for "${searchTerm}" (limit: ${limit})`);
+  console.log(`Testing Asos - Searching for "${searchTerm}" (limit: ${limit})`);
   console.log("=".repeat(80) + "\n");
 
   let browser: Browser | null = null;
 
   try {
-    const platform = new MediaMarkt();
+    const platform = new Asos();
     console.log(`✓ Platform loaded: ${platform.name}\n`);
 
     browser = await puppeteer.launch({

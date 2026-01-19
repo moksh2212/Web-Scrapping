@@ -1,23 +1,18 @@
 {
-  "platform": "mediamarkt",
-  "searchTerm": "phone",
-  "timestamp": "2026-01-19T18:48:58.308Z",
-  "totalListings": 3,
+  "platform": "asos",
+  "searchTerm": "crocs",
+  "timestamp": "2026-01-19T21:39:04.314Z",
+  "totalListings": 2,
   "listings": [
     {
-      "title": "SAMSUNG Galaxy Watch8 Classic 46mm - LTE Smartwatch Dark Gray",
-      "price": 369,
-      "url": "https://www.mediamarkt.nl/nl/product/_samsung-galaxy-watch8-classic-46mm-dark-gray-lte-smartwatch-black-1887198.html"
+      "title": "Crocs classic clogs in ballerina pink",
+      "price": 31.5,
+      "url": "https://www.asos.com/crocs/crocs-classic-clogs-in-ballerina-pink/prd/202742865#colourWayId-202742874"
     },
     {
-      "title": "SAMSUNG Galaxy Watch8 44mm - BT Smartwatch Dark Gray",
-      "price": 409,
-      "url": "https://www.mediamarkt.nl/nl/product/_samsung-galaxy-watch8-44mm-dark-gray-bt-smartwatch-dark-gray-1887192.html"
-    },
-    {
-      "title": "SAMSUNG Galaxy Watch7 - 44 mm Groen",
-      "price": 0,
-      "url": "https://www.mediamarkt.nl/nl/product/_samsung-galaxy-watch7-44-mm-groen-1869790.html"
+      "title": "Crocs Classic platform fleece lined clog in pink milk",
+      "price": 35,
+      "url": "https://www.asos.com/crocs/crocs-classic-platform-fleece-lined-clog-in-pink-milk/prd/209297310#colourWayId-209297311"
     }
   ]
 }
