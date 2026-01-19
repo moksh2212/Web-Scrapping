@@ -1,7 +1,6 @@
 import puppeteer from "puppeteer";
-import { Marktplaats } from "./platforms/marktplaats";
 import { Listing } from "./platforms/base";
-
+import { Marktplaats } from "./platforms/marktplaats";
 async function main(): Promise<void> {
   const browser = await puppeteer.launch({
     headless: false,
