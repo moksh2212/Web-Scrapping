@@ -1,8 +1,7 @@
 import puppeteer, { Browser, Page } from "puppeteer";
 import { writeFileSync } from "fs";
-import { PlatformFactory } from "./platforms/PlatformFactory.js";
 import { Listing } from "./platforms/base.js";
-
+import { PlatformFactory } from "./platforms/platformFactory;
 /**
  * Main scraping orchestrator
  */
