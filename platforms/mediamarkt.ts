@@ -162,7 +162,7 @@ export class MediaMarkt implements Platform {
         console.log("No 'show all' button found - results may already be visible");
       }
     } catch (error) {
-      console.log("Show all button click skipped");
+      console.log(error);
     }
   }
 
@@ -197,7 +197,7 @@ export class MediaMarkt implements Platform {
         await delay(3000);
       }
     } catch (error) {
-      console.log("Cookie consent handling skipped");
+      console.log(error);
     }
   }
 }
