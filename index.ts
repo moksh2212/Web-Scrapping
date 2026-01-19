@@ -1,10 +1,13 @@
-import puppeteer, { Browser} from "puppeteer";
+import puppeteer, { Browser, Page } from "puppeteer";
 import { writeFileSync } from "fs";
-import { Listing } from "./platforms/base";
-import { PlatformFactory } from "./platforms/PlatformFactory";
+import { PlatformFactory } from "./platforms/PlatformFactory.js";
+import { Listing } from "./platforms/base.js";
 
-
+/**
+ * Main scraping orchestrator
+ */
 async function main() {
+  // Get command line arguments
   const args = process.argv.slice(2);
   
   if (args.length < 3) {
@@ -31,9 +34,11 @@ async function main() {
   let browser: Browser | null = null;
 
   try {
+    // Step 4: Get platform instance using factory (no switch/if-else)
     const platform = PlatformFactory.getPlatform(platformName);
     console.log(`✓ Platform loaded: ${platform.name}\n`);
 
+    // Launch browser
     browser = await puppeteer.launch({
       headless: false,
       args: [
@@ -52,6 +57,7 @@ async function main() {
       deviceScaleFactor: 1,
     });
 
+    // Step 6a: Collect URLs from search page
     console.log("Step 1: Collecting listing URLs...");
     const urls = await platform.scrapeSearchPage(page, searchTerm, limit);
     console.log(`✓ Collected ${urls.length} URLs\n`);
@@ -61,6 +67,7 @@ async function main() {
       return;
     }
 
+    // Step 6b: Scrape each listing page
     console.log("Step 2: Scraping individual listings...");
     const listings: Listing[] = [];
 
@@ -69,8 +76,8 @@ async function main() {
 
       try {
         await page.goto(urls[i], {
-          waitUntil: "networkidle2",
-          timeout: 15000,
+          waitUntil: "domcontentloaded",
+          timeout: 60000,
         });
 
         const listing = await platform.scrapeItemPage(page);
@@ -86,9 +93,11 @@ async function main() {
         });
       }
 
+      // Small delay between requests
       await new Promise((resolve) => setTimeout(resolve, 1000));
     }
 
+    // Step 6c: Save results to result.json
     console.log("\nStep 3: Saving results...");
     const results = {
       platform: platform.name,
@@ -101,6 +110,7 @@ async function main() {
     writeFileSync("result.json", JSON.stringify(results, null, 2));
     console.log("✓ Results saved to result.json\n");
 
+    // Print summary
     printSummary(listings, platform.name, searchTerm);
   } catch (error) {
     console.error("\n✗ Error during scraping:");
@@ -113,7 +123,9 @@ async function main() {
   }
 }
 
-
+/**
+ * Prints a summary of scraped results
+ */
 function printSummary(listings: Listing[], platformName: string, searchTerm: string): void {
   console.log("=".repeat(80));
   console.log(`SCRAPING SUMMARY - ${platformName.toUpperCase()}`);
@@ -138,4 +150,5 @@ function printSummary(listings: Listing[], platformName: string, searchTerm: str
   console.log("Results saved to result.json\n");
 }
 
+// Run the main function
 main().catch(console.error);
