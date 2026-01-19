@@ -20,7 +20,7 @@ export class Marktplaats implements Platform {
         }
 
         const acceptButton = document.querySelector(
-          'button.primary[title="Accepteren"]'
+          'button.primary[title="Accepteren"]',
         );
         if (acceptButton && acceptButton instanceof HTMLElement) {
           acceptButton.click();
@@ -39,47 +39,52 @@ export class Marktplaats implements Platform {
     }
   }
 
-  // YOUR IMPLEMENTATION (will be replaced during merge)
+  // THEIR IMPLEMENTATION - with pagination (from marktplaats branch)
   async scrapeSearchPage(
     page: Page,
     keyword: string,
-    limit: number
+    limit: number,
   ): Promise<string[]> {
-    const searchUrl = `https://www.marktplaats.nl/q/${keyword}/`;
-    
-    await page.goto(searchUrl, {
-      waitUntil: "networkidle2",
-      timeout: 30000,
-    });
+    let pageNumber = 1;
+    const urls: string[] = [];
 
-    await this.handleCookieConsent(page);
+    while (urls.length < limit) {
+      const url = `https://www.marktplaats.nl/q/${keyword}/p/${pageNumber}/`;
+      console.log(`  Fetching page ${pageNumber}...`);
 
-    const urls = await page.evaluate(() => {
-      const urlList: string[] = [];
-      const allLinks = document.querySelectorAll(
-        'a[href*="/a/"], a[href*="/v/"]'
-      );
-
-      allLinks.forEach((link) => {
-        const href = link.getAttribute("href");
-        if (href) {
-          const absoluteUrl = href.startsWith("http")
-            ? href
-            : `https://www.marktplaats.nl${href}`;
-
-          if (!urlList.includes(absoluteUrl)) {
-            urlList.push(absoluteUrl);
-          }
-        }
+      await page.goto(url, {
+        waitUntil: "networkidle2",
+        timeout: 30000,
       });
 
-      return urlList;
-    });
+      // Handle cookies on first page
+      if (pageNumber === 1) {
+        await this.handleCookieConsent(page);
+      }
+
+      const items = await page.$$eval("a.hz-Listing-coverLink", (items) => {
+        return items
+          .map((item) => {
+            const href = item.getAttribute("href");
+            return href ? "https://www.marktplaats.nl" + href : "";
+          })
+          .filter((url) => url !== "");
+      });
+
+      console.log(`  Found ${items.length} listings on page ${pageNumber}`);
+      urls.push(...items);
+      pageNumber++;
+
+      if (items.length === 0) {
+        console.log(`  No more listings found`);
+        break;
+      }
+    }
 
     return urls.slice(0, limit);
   }
 
-  // YOUR IMPLEMENTATION (will be KEPT during merge)
+  // YOUR IMPLEMENTATION - robust extraction (kept from HEAD)
   async scrapeItemPage(page: Page, url: string): Promise<Listing> {
     await page.goto(url, {
       waitUntil: "networkidle2",
@@ -101,7 +106,9 @@ export class Marktplaats implements Platform {
       }
 
       let priceText = "N/A";
-      const priceElement = document.querySelector('[data-testid="price-label"]');
+      const priceElement = document.querySelector(
+        '[data-testid="price-label"]',
+      );
 
       if (priceElement?.textContent) {
         priceText = priceElement.textContent.trim();
