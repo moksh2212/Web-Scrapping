@@ -1,7 +1,7 @@
 import puppeteer, { Browser} from "puppeteer";
 import { writeFileSync } from "fs";
-import { PlatformFactory } from "./platforms/PlatformFactory";
 import { Listing } from "./platforms/base";
+import { PlatformFactory } from "./platforms/PlatformFactory";
 
 
 async function main() {
