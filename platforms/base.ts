@@ -8,12 +8,10 @@ export interface Listing {
 
 export interface Platform {
   name: string;
-
   scrapeSearchPage(
     page: Page,
     keyword: string,
     limit: number
   ): Promise<string[]>;
-
   scrapeItemPage(page: Page): Promise<Listing>;
 }
