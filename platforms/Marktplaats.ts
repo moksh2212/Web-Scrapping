@@ -11,57 +11,59 @@ export class Marktplaats implements Platform {
   async scrapeSearchPage(
     page: Page,
     keyword: string,
-    limit: number
+    limit: number,
   ): Promise<string[]> {
     let pageNumber = 1;
     const urls: string[] = [];
-    
+
     while (urls.length < limit) {
       const url = `https://www.marktplaats.nl/q/${keyword}/p/${pageNumber}/`;
-      
+
       await page.goto(url, {
         waitUntil: "networkidle2",
         timeout: 30000,
       });
-      
+
       if (pageNumber === 1) {
         await this.handleCookieConsent(page);
       }
-      
+
       const items = await page.evaluate(() => {
         const urlList: string[] = [];
-        const allLinks = document.querySelectorAll('a[href*="/a/"], a[href*="/v/"]');
-        
+        const allLinks = document.querySelectorAll(
+          'a[href*="/a/"], a[href*="/v/"]',
+        );
+
         allLinks.forEach((link) => {
           const href = link.getAttribute("href");
           if (href) {
             const absoluteUrl = href.startsWith("http")
               ? href
               : `https://www.marktplaats.nl${href}`;
-            
+
             if (!urlList.includes(absoluteUrl)) {
               urlList.push(absoluteUrl);
             }
           }
         });
-        
+
         return urlList;
       });
-      
+
       if (items.length === 0) {
         break;
       }
-      
+
       const remaining = limit - urls.length;
       urls.push(...items.slice(0, remaining));
-      
+
       if (urls.length >= limit) {
         break;
       }
-      
+
       pageNumber++;
     }
-    
+
     return urls;
   }
 
@@ -81,7 +83,9 @@ export class Marktplaats implements Platform {
       }
 
       let priceText = "N/A";
-      const priceElement = document.querySelector('[data-testid="price-label"]');
+      const priceElement = document.querySelector(
+        '[data-testid="price-label"]',
+      );
       if (priceElement?.textContent) {
         priceText = priceElement.textContent.trim();
       }
@@ -122,7 +126,7 @@ export class Marktplaats implements Platform {
         }
 
         const acceptButton = document.querySelector(
-          'button.primary[title="Accepteren"]'
+          'button.primary[title="Accepteren"]',
         );
         if (acceptButton && acceptButton instanceof HTMLElement) {
           acceptButton.click();
@@ -137,7 +141,7 @@ export class Marktplaats implements Platform {
         await delay(2000);
       }
     } catch (error) {
-      console.log("Cookie consent handling skipped");
+      console.log(error);
     }
   }
 }
