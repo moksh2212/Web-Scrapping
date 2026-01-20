@@ -1,5 +1,5 @@
 import { Platform } from "./base";
-import { Asos } from "./Asos";
+import { Asos } from "./asos";
 import { Marktplaats } from "./marktplaats";
 import { MediaMarkt } from "./mediamarkt";
 export class PlatformFactory {
