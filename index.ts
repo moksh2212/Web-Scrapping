@@ -1,7 +1,7 @@
 import puppeteer, { Browser } from "puppeteer";
 import { writeFileSync } from "fs";
 import { Listing } from "./platforms/base";
-import { PlatformFactory } from "./platforms/PlatformFactory";
+import { PlatformFactory } from "./platforms/platformFactory";
 
 async function main() {
   const args = process.argv.slice(2);
