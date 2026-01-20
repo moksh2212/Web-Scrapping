@@ -1,5 +1,5 @@
 import puppeteer, { Browser } from "puppeteer";
-import { Asos } from "./platforms/Asos";
+import { Asos } from "./platforms/asos";
 import { Listing } from "./platforms/base";
 import { writeFileSync } from "fs";
 
