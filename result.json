@@ -1,28 +1,28 @@
 {
   "platform": "mediamarkt",
   "searchTerm": "phone",
-  "timestamp": "2026-01-20T09:23:16.271Z",
+  "timestamp": "2026-01-20T09:54:31.777Z",
   "totalListings": 19,
   "listings": [
     {
-      "title": "GOOGLE Pixel 10 - 5G - 128 GB Zwart",
-      "price": 719,
-      "url": "https://www.mediamarkt.nl/nl/product/_google-pixel-10-5g-128-gb-zwart-1888655.html"
+      "title": "SAMSUNG Galaxy S25 - 5G - 128 GB Donkerblauw",
+      "price": 749,
+      "url": "https://www.mediamarkt.nl/nl/product/_samsung-galaxy-s25-5g-128gb-navy-128-gb-blauw-1877857.html"
     },
     {
-      "title": "GOOGLE Pixel 10 Pro XL - 5G - 256 GB Grijs",
-      "price": 1099,
-      "url": "https://www.mediamarkt.nl/nl/product/_google-pixel-10-pro-xl-5g-256-gb-grijs-1888675.html"
+      "title": "SAMSUNG Galaxy S25 - 5G - 128 GB Lichtblauw",
+      "price": 899,
+      "url": "https://www.mediamarkt.nl/nl/product/_samsung-galaxy-s25-5g-128gb-icy-blauw-128-gb-blauw-1877858.html"
     },
     {
-      "title": "GOOGLE Pixel 10 Pro Fold - 5G - 256 GB Grijs",
-      "price": 1699,
-      "url": "https://www.mediamarkt.nl/nl/product/_google-pixel-10-pro-fold-5g-256-gb-grijs-1888680.html"
+      "title": "SAMSUNG Galaxy S25 - 5G - 128 GB Mint",
+      "price": 749,
+      "url": "https://www.mediamarkt.nl/nl/product/_samsung-galaxy-s25-5g-128gb-mint-128-gb-groen-1877859.html"
     },
     {
-      "title": "SAMSUNG Galaxy S25 FE 5G - 128 GB Navy",
-      "price": 606,
-      "url": "https://www.mediamarkt.nl/nl/product/_samsung-galaxy-s25-fe-5g-128-gb-navy-1888629.html"
+      "title": "SAMSUNG Galaxy A56 - 5G - 128 GB Groen",
+      "price": 379,
+      "url": "https://www.mediamarkt.nl/nl/product/_samsung-galaxy-a56-5g-128-gb-awesome-olive-1880169.html"
     },
     {
       "title": "ONEPLUS Nord 5 256GB 8GB Phantom Grey - 256 GB Grijs",
@@ -40,6 +40,11 @@
       "url": "https://www.mediamarkt.nl/nl/product/_samsung-galaxy-a26-5g-128-gb-black-1880152.html"
     },
     {
+      "title": "SAMSUNG Galaxy S25 FE 5G - 128 GB Icy Blue",
+      "price": 606,
+      "url": "https://www.mediamarkt.nl/nl/product/_samsung-galaxy-s25-fe-5g-128-gb-icy-blue-1888630.html"
+    },
+    {
       "title": "SAMSUNG Galaxy A16 4G (LTE) - 128GB - Black - 128 GB Zwart",
       "price": 139,
       "url": "https://www.mediamarkt.nl/nl/product/_samsung-galaxy-a16-4g-lte-128gb-black-128-gb-zwart-1874426.html"
@@ -55,9 +60,9 @@
       "url": "https://www.mediamarkt.nl/nl/product/_apple-iphone-15-5g-128-gb-zwart-1791392.html"
     },
     {
-      "title": "SAMSUNG Galaxy S25 - 5G - 128 GB Donkerblauw",
-      "price": 749,
-      "url": "https://www.mediamarkt.nl/nl/product/_samsung-galaxy-s25-5g-128gb-navy-128-gb-blauw-1877857.html"
+      "title": "ONEPLUS 15R 12GB - 256 GB Charcoal Black",
+      "price": 699,
+      "url": "https://www.mediamarkt.nl/nl/product/_oneplus-15r-12gb-256-gb-charcoal-black-1893923.html"
     },
     {
       "title": "APPLE iPhone 13 - 128 GB Middernacht 5G",
@@ -93,11 +98,6 @@
       "title": "SAMSUNG Galaxy S25 FE 5G - 256 GB Zwart",
       "price": 653,
       "url": "https://www.mediamarkt.nl/nl/product/_samsung-galaxy-s25-fe-5g-256-gb-jet-black-1888635.html"
-    },
-    {
-      "title": "SAMSUNG Galaxy Watch8 Classic 46mm - LTE Smartwatch Dark Gray",
-      "price": 369,
-      "url": "https://www.mediamarkt.nl/nl/product/_samsung-galaxy-watch8-classic-46mm-dark-gray-lte-smartwatch-black-1887198.html"
     }
   ]
 }
