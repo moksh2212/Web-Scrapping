@@ -18,9 +18,8 @@ export class MediaMarkt implements Platform {
     const categoryMap: { [key: string]: string } = {
       phone: "smartphones-283",
       smartphone: "smartphones-283",
-      laptop: "laptops-160",
-      tv: "televisies-82",
-      headphone: "koptelefoons-355",
+      laptop: "laptops-433",
+      tv: "televisies-453",
       camera: "digitale-cameras-114",
     };
 
